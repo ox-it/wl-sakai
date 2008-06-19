@@ -16,7 +16,6 @@ courier			https://source.sakaiproject.org/svn/courier/branches/sakai_2-5-x
 course-management	https://source.sakaiproject.org/svn/course-management/branches/sakai_2-5-x
 dav			https://source.sakaiproject.org/svn/dav/branches/sakai_2-5-x
 db			https://source.sakaiproject.org/svn/db/branches/sakai_2-5-x
-discussion		https://source.sakaiproject.org/contrib/deprecated/discussion/branches/sakai_2-5-x
 email			https://source.sakaiproject.org/svn/email/branches/sakai_2-5-x
 entity			https://source.sakaiproject.org/svn/entity/branches/sakai_2-5-x
 entitybroker		https://source.sakaiproject.org/svn/entitybroker/branches/sakai_2-5-x
