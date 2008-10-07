@@ -1,3 +1,207 @@
-[submodule "access"]
-	path = access
-	url = ../../../mirror/sakai/access.git
+[submodule "alias"]
+	path = alias
+	url = ../../../mirror/sakai/alias.git
+[submodule "announcement"]
+	path = announcement
+	url = ../../../mirror/sakai/announcement.git
+[submodule "archive"]
+	path = archive
+	url = ../../../mirror/sakai/archive.git
+[submodule "assignment"]
+	path = assignment
+	url = ../../../mirror/sakai/assignment.git
+[submodule "authz"]
+	path = authz
+	url = ../../../mirror/sakai/authz.git
+[submodule "blog"]
+	path = blog
+	url = ../../../mirror/sakai/blog.git
+[submodule "calendar"]
+	path = calendar
+	url = ../../../mirror/sakai/calendar.git
+[submodule "chat"]
+	path = chat
+	url = ../../../mirror/sakai/chat.git
+[submodule "citations"]
+	path = citations
+	url = ../../../mirror/sakai/citations.git
+[submodule "cluster"]
+	path = cluster
+	url = ../../../mirror/sakai/cluster.git
+[submodule "component"]
+	path = component
+	url = ../../../mirror/sakai/component.git
+[submodule "content"]
+	path = content
+	url = ../../../mirror/sakai/content.git
+[submodule "content-review"]
+	path = content-review
+	url = ../../../mirror/sakai/content-review.git
+[submodule "courier"]
+	path = courier
+	url = ../../../mirror/sakai/courier.git
+[submodule "course-management"]
+	path = course-management
+	url = ../../../mirror/sakai/course-management.git
+[submodule "dav"]
+	path = dav
+	url = ../../../mirror/sakai/dav.git
+[submodule "db"]
+	path = db
+	url = ../../../mirror/sakai/db.git
+[submodule "email"]
+	path = email
+	url = ../../../mirror/sakai/email.git
+[submodule "entity"]
+	path = entity
+	url = ../../../mirror/sakai/entity.git
+[submodule "entitybroker"]
+	path = entitybroker
+	url = ../../../mirror/sakai/entitybroker.git
+[submodule "event"]
+	path = event
+	url = ../../../mirror/sakai/event.git
+[submodule "gradebook"]
+	path = gradebook
+	url = ../../../mirror/sakai/gradebook.git
+[submodule "help"]
+	path = help
+	url = ../../../mirror/sakai/help.git
+[submodule "jcr"]
+	path = jcr
+	url = ../../../mirror/sakai/jcr.git
+[submodule "jobscheduler"]
+	path = jobscheduler
+	url = ../../../mirror/sakai/jobscheduler.git
+[submodule "jsf"]
+	path = jsf
+	url = ../../../mirror/sakai/jsf.git
+[submodule "linktool"]
+	path = linktool
+	url = ../../../mirror/sakai/linktool.git
+[submodule "login"]
+	path = login
+	url = ../../../mirror/sakai/login.git
+[submodule "mailarchive"]
+	path = mailarchive
+	url = ../../../mirror/sakai/mailarchive.git
+[submodule "master"]
+	path = master
+	url = ../../../mirror/sakai/master.git
+[submodule "memory"]
+	path = memory
+	url = ../../../mirror/sakai/memory.git
+[submodule "message"]
+	path = message
+	url = ../../../mirror/sakai/message.git
+[submodule "metaobj"]
+	path = metaobj
+	url = ../../../mirror/sakai/metaobj.git
+[submodule "msgcntr"]
+	path = msgcntr
+	url = ../../../mirror/sakai/msgcntr.git
+[submodule "osp"]
+	path = osp
+	url = ../../../mirror/sakai/osp.git
+[submodule "podcasts"]
+	path = podcasts
+	url = ../../../mirror/sakai/podcasts.git
+[submodule "portal"]
+	path = portal
+	url = ../../../mirror/sakai/portal.git
+[submodule "postem"]
+	path = postem
+	url = ../../../mirror/sakai/postem.git
+[submodule "presence"]
+	path = presence
+	url = ../../../mirror/sakai/presence.git
+[submodule "presentation"]
+	path = presentation
+	url = ../../../mirror/sakai/presentation.git
+[submodule "privacy"]
+	path = privacy
+	url = ../../../mirror/sakai/privacy.git
+[submodule "profile"]
+	path = profile
+	url = ../../../mirror/sakai/profile.git
+[submodule "providers"]
+	path = providers
+	url = ../../../mirror/sakai/providers.git
+[submodule "reference"]
+	path = reference
+	url = ../../../mirror/sakai/reference.git
+[submodule "reports"]
+	path = reports
+	url = ../../../mirror/sakai/reports.git
+[submodule "reset-pass"]
+	path = reset-pass
+	url = ../../../mirror/sakai/reset-pass.git
+[submodule "rights"]
+	path = rights
+	url = ../../../mirror/sakai/rights.git
+[submodule "roster"]
+	path = roster
+	url = ../../../mirror/sakai/roster.git
+[submodule "rwiki"]
+	path = rwiki
+	url = ../../../mirror/sakai/rwiki.git
+[submodule "sakai-mock"]
+	path = sakai-mock
+	url = ../../../mirror/sakai/sakai-mock.git
+[submodule "sam"]
+	path = sam
+	url = ../../../mirror/sakai/sam.git
+[submodule "samples"]
+	path = samples
+	url = ../../../mirror/sakai/samples.git
+[submodule "search"]
+	path = search
+	url = ../../../mirror/sakai/search.git
+[submodule "sections"]
+	path = sections
+	url = ../../../mirror/sakai/sections.git
+[submodule "site"]
+	path = site
+	url = ../../../mirror/sakai/site.git
+[submodule "site-manage"]
+	path = site-manage
+	url = ../../../mirror/sakai/site-manage.git
+[submodule "syllabus"]
+	path = syllabus
+	url = ../../../mirror/sakai/syllabus.git
+[submodule "test-harness"]
+	path = test-harness
+	url = ../../../mirror/sakai/test-harness.git
+[submodule "textarea"]
+	path = textarea
+	url = ../../../mirror/sakai/textarea.git
+[submodule "tool"]
+	path = tool
+	url = ../../../mirror/sakai/tool.git
+[submodule "user"]
+	path = user
+	url = ../../../mirror/sakai/user.git
+[submodule "util"]
+	path = util
+	url = ../../../mirror/sakai/util.git
+[submodule "velocity"]
+	path = velocity
+	url = ../../../mirror/sakai/velocity.git
+[submodule "warehouse"]
+	path = warehouse
+	url = ../../../mirror/sakai/warehouse.git
+[submodule "web"]
+	path = web
+	url = ../../../mirror/sakai/web.git
+[submodule "webservices"]
+	path = webservices
+	url = ../../../mirror/sakai/webservices.git
+[submodule "mailtool"]
+	path = mailtool
+	url = ../../../mirror/sakai/mailtool.git
+[submodule "usermembership"]
+	path = usermembership
+	url = ../../../mirror/sakai/usermembership.git
+[submodule "polls"]
+	path = polls
+	url = ../../../mirror/sakai/polls.git
