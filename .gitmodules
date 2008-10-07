@@ -45,7 +45,7 @@
 	url = ../../../mirror/sakai/course-management.git
 [submodule "dav"]
 	path = dav
-	url = ../../../mirror/sakai/dav.git
+	url = ../dav.git
 [submodule "db"]
 	path = db
 	url = ../../../mirror/sakai/db.git
