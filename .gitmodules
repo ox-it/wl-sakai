@@ -82,9 +82,6 @@
 [submodule "master"]
 	path = master
 	url = ../../../mirror/sakai/master.git
-[submodule "memory"]
-	path = memory
-	url = ../../../mirror/sakai/memory.git
 [submodule "message"]
 	path = message
 	url = ../../../mirror/sakai/message.git
@@ -211,3 +208,6 @@
 [submodule "email"]
 	path = email
 	url = ../email.git
+[submodule "memory"]
+	path = memory
+	url = ../memory.git
