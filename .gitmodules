@@ -49,9 +49,6 @@
 [submodule "db"]
 	path = db
 	url = ../../../mirror/sakai/db.git
-[submodule "email"]
-	path = email
-	url = ../../../mirror/sakai/email.git
 [submodule "entity"]
 	path = entity
 	url = ../../../mirror/sakai/entity.git
@@ -211,3 +208,6 @@
 [submodule "entitybroker"]
 	path = entitybroker
 	url = ../../../mirror/sakai/entitybroker.git
+[submodule "email"]
+	path = email
+	url = ../email.git
