@@ -55,9 +55,6 @@
 [submodule "entity"]
 	path = entity
 	url = ../../../mirror/sakai/entity.git
-[submodule "entitybroker"]
-	path = entitybroker
-	url = ../../../mirror/sakai/entitybroker.git
 [submodule "event"]
 	path = event
 	url = ../../../mirror/sakai/event.git
