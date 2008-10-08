@@ -208,3 +208,6 @@
 [submodule "access"]
 	path = access
 	url = ../../../mirror/sakai/access.git
+[submodule "entitytbroker"]
+	path = entitytbroker
+	url = ../../../mirror/sakai/entitybroker.git
