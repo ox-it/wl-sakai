@@ -232,3 +232,9 @@
 [submodule "tetraelf-hierarchy"]
 	path = tetraelf-hierarchy
 	url = ../../../mirror/tetraelf-hierarchy
+[submodule "test-center/ambrosia"]
+	path = test-center/ambrosia
+	url = ../../../mirror/ambrosia.git
+[submodule "test-center/mneme"]
+	path = test-center/mneme
+	url = ../../../mirror/mneme.git
