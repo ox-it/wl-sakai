@@ -229,3 +229,6 @@
 [submodule "evaluation"]
 	path = evaluation
 	url = ../../../mirror/evaluation.git
+[submodule "tetraelf-hierarchy"]
+	path = tetraelf-hierarchy
+	url = ../../../mirror/tetraelf-hierarchy

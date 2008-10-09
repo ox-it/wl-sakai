@@ -219,6 +219,7 @@
 			<module>signup</module>
 			<module>sitestats</module>
 			<module>test-center</module>
+			<module>tetraelf-hierarchy</module>
 		</modules>
 	</profile>
   </profiles>
