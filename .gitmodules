@@ -211,3 +211,6 @@
 [submodule "memory"]
 	path = memory
 	url = ../memory.git
+[submodule "hierarchy"]
+	path = hierarchy
+	url = ../../../mirror/hierarchy.git
