@@ -216,6 +216,7 @@
 			<module>hierarchy</module>
 			<module>signup</module>
 			<module>sitestats</module>
+			<module>test-center</module>
 		</modules>
 	</profile>
   </profiles>

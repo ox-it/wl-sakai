@@ -220,3 +220,6 @@
 [submodule "sitestats"]
 	path = sitestats
 	url = ../../../mirror/sitestats.git
+[submodule "test-center"]
+	path = test-center
+	url = ../../../mirror/test-center.git
