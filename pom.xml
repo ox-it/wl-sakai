@@ -214,6 +214,7 @@
 		<id>oxford-extra</id>
 		<modules>
 			<module>hierarchy</module>
+			<module>signup</module>
 		</modules>
 	</profile>
   </profiles>

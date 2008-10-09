@@ -214,3 +214,6 @@
 [submodule "hierarchy"]
 	path = hierarchy
 	url = ../../../mirror/hierarchy.git
+[submodule "signup"]
+	path = signup
+	url = ../../../mirror/signup.git
