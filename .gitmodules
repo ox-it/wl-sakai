@@ -226,3 +226,6 @@
 [submodule "melete"]
 	path = melete
 	url = ../../../mirror/melete.git
+[submodule "evaluation"]
+	path = evaluation
+	url = ../../../mirror/evaluation.git
