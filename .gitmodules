@@ -223,3 +223,6 @@
 [submodule "test-center"]
 	path = test-center
 	url = ../../../mirror/test-center.git
+[submodule "melete"]
+	path = melete
+	url = ../../../mirror/melete.git

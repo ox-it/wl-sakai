@@ -214,6 +214,7 @@
 		<id>oxford-extra</id>
 		<modules>
 			<module>hierarchy</module>
+			<module>melete</module>
 			<module>signup</module>
 			<module>sitestats</module>
 			<module>test-center</module>
