@@ -210,6 +210,12 @@
 			<module>syllabus/syllabus-app</module>
 		</modules>
 	</profile> 
+	<profile>
+		<id>oxford-extra</id>
+		<modules>
+			<module>hierarchy</module>
+		</modules>
+	</profile>
   </profiles>
 
   <reporting>
