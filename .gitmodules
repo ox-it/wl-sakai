@@ -30,7 +30,7 @@
 	url = ../../../mirror/sakai/cluster.git
 [submodule "component"]
 	path = component
-	url = ../../../mirror/sakai/component.git
+	url = ../component.git
 [submodule "content"]
 	path = content
 	url = ../content.git
