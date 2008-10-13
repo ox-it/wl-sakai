@@ -51,7 +51,7 @@
 	url = ../../../mirror/sakai/db.git
 [submodule "entity"]
 	path = entity
-	url = ../../../mirror/sakai/entity.git
+	url = ../entity.git
 [submodule "event"]
 	path = event
 	url = ../../../mirror/sakai/event.git
