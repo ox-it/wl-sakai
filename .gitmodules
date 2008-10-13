@@ -78,7 +78,7 @@
 	url = ../../../mirror/sakai/login.git
 [submodule "mailarchive"]
 	path = mailarchive
-	url = ../../../mirror/sakai/mailarchive.git
+	url = ../mailarchive.git
 [submodule "master"]
 	path = master
 	url = ../../../mirror/sakai/master.git
