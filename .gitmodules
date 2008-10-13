@@ -75,7 +75,7 @@
 	url = ../../../mirror/sakai/linktool.git
 [submodule "login"]
 	path = login
-	url = ../../../mirror/sakai/login.git
+	url = ../login.git
 [submodule "mailarchive"]
 	path = mailarchive
 	url = ../mailarchive.git
