@@ -33,7 +33,7 @@
 	url = ../../../mirror/sakai/component.git
 [submodule "content"]
 	path = content
-	url = ../../../mirror/sakai/content.git
+	url = ../content.git
 [submodule "content-review"]
 	path = content-review
 	url = ../../../mirror/sakai/content-review.git
