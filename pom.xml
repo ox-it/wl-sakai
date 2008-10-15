@@ -218,6 +218,7 @@
 			<module>sitestats</module>
 			<module>test-center</module>
 			<module>tetraelf-hierarchy</module>
+			<module>oxford</module>
 		</modules>
 	</profile>
   </profiles>

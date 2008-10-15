@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>base</artifactId>
+    <groupId>org.sakaiproject</groupId>
+    <version>M2</version>
+    <relativePath>master/pom.xml</relativePath>
+  </parent>
+  <name>Oxford Extras</name>
+  <groupId>uk.ac.ox.oucs</groupId>
+  <artifactId>extras</artifactId>
+  <packaging>pom</packaging>
+  <properties>
+    <deploy.target>distro</deploy.target>
+  </properties>
+  <!-- Needed for tinyMCE -->
+  <repositories>
+    <repository>
+      <id>sakai-maven1</id>
+      <name>Sakai Maven 1 Repository</name>
+      <url>https://source.sakaiproject.org/maven</url>
+      <layout>legacy</layout>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>ignore</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <dependencies>
+     <dependency>
+       <groupId>uk.ac.ox.oucs.vle</groupId>
+       <artifactId>local-skins</artifactId>
+       <version>1.1</version>
+       <type>war</type>
+     </dependency>
+    <dependency>
+      <groupId>uk.ac.ox.oucs</groupId>
+      <artifactId>ROOT</artifactId>     
+      <version>1.1</version>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>uk.ac.ox.oucs</groupId>
+      <artifactId>tomcat-additions</artifactId>     
+      <version>1.2</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+	<groupId>uk.ac.ox.oucs.vle</groupId>
+	<artifactId>tiny_mce</artifactId>
+	<version>M2</version>
+    <type>war</type>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.sakaiproject.maven.plugins</groupId>
+	<artifactId>sakai</artifactId>
+	<version>1.2-SNAPSHOT</version>
+	<inherited>true</inherited>
+	<extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+
+
+</project>
