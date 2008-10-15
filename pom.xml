@@ -84,7 +84,6 @@
         <module>metaobj/metaobj-impl</module>
         <module>portal</module>
         <module>reference/library</module>
-        <module>sakai-mock</module>
         <module>site/site-api/api</module>
         <module>site/site-impl/impl</module>
         <module>site/site-impl/pack</module>
@@ -180,7 +179,6 @@
         <module>mailtool</module>
         <module>polls</module>
         <module>usermembership</module>
-        <module>sakai-mock</module>
         <module>warehouse</module>
         <module>reports</module>
 	<module>reset-pass</module>
@@ -211,7 +209,7 @@
 		</modules>
 	</profile> 
 	<profile>
-		<id>oxford-extra</id>
+		<id>oxford</id>
 		<modules>
 			<module>evaluation</module>
 			<module>hierarchy</module>
