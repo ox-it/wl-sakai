@@ -211,6 +211,7 @@
 	<profile>
 		<id>oxford</id>
 		<modules>
+			<module>discussion</module>
 			<module>evaluation</module>
 			<module>hierarchy</module>
 			<module>melete</module>

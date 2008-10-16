@@ -238,3 +238,6 @@
 [submodule "test-center/mneme"]
 	path = test-center/mneme
 	url = ../../../mirror/mneme.git
+[submodule "discussion"]
+	path = discussion
+	url = ../../../mirror/discussion.git
