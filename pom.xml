@@ -46,6 +46,45 @@
       </modules>
     </profile>
     <profile>
+      <id>framework</id>
+      <modules>
+        <module>access</module>
+        <module>alias</module>
+        <module>announcement/announcement-api/api</module>
+        <module>archive/archive-api/api</module>
+        <module>archive/import-api</module>
+        <module>authz</module>
+        <module>component</module>
+        <module>content</module>
+        <module>courier</module>
+        <module>course-management/cm-api/api</module>
+        <module>cluster</module>
+        <module>dav</module>
+        <module>db</module>
+        <module>email</module>
+        <module>entity</module>
+        <module>event</module>
+        <module>jcr</module>
+        <module>login</module>
+        <module>master</module>
+        <module>memory</module>
+        <module>message/message-api/api</module>
+        <module>portal</module>
+        <module>presence/presence-api/api</module>
+        <module>jobscheduler/scheduler-api</module>
+        <module>reference/library</module>
+        <module>sakai-mock</module>
+        <module>site</module>
+        <module>site-manage</module>
+        <module>test-harness</module>
+        <module>tool</module>
+        <module>user</module>
+        <module>util</module>
+        <module>velocity</module>
+        <module>web</module>
+      </modules>
+    </profile>
+    <profile>
       <id>mini</id>
       <modules>
         <module>access</module>
