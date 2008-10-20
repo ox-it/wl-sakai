@@ -1,4 +1,4 @@
-#!/bin/sh -xv
+#!/bin/sh
 #
 # Short build script.
 
@@ -10,5 +10,5 @@ MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=32m -XX:NewSize=64m -Dmaven.tomcat.ho
 export MAVEN_OPTS
 
 rm -rf build
-mvn clean install sakai:deploy -Pfull,oxford -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai
-(cd build; tar zcf ../sakai-${local_version}.tgz .)
+mvn clean install sakai:deploy -Pfull,oxford -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai || exit 1
+(cd build && tar zcf ../sakai-${local_version}.tgz .)
