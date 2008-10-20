@@ -263,6 +263,16 @@
 	</profile>
   </profiles>
 
+  <pluginRepositories>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>oucs-vle</id>
+      <name>OUCS VLE Repository</name>
+      <url>http://archiva.oucs.ox.ac.uk/archiva/repository/internal/</url>
+      <layout>default</layout>
+    </repository>
+  </pluginRepositories>
+
   <!-- Needed so that the oxford extras get deployed -->  
   <build>
     <plugins>
