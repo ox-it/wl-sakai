@@ -264,13 +264,12 @@
   </profiles>
 
   <pluginRepositories>
-    <repository>
-      <uniqueVersion>false</uniqueVersion>
+    <pluginRepository>
       <id>oucs-vle</id>
       <name>OUCS VLE Repository</name>
       <url>http://archiva.oucs.ox.ac.uk/archiva/repository/internal/</url>
       <layout>default</layout>
-    </repository>
+    </pluginRepository>
   </pluginRepositories>
 
   <!-- Needed so that the oxford extras get deployed -->  
