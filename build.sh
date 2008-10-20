@@ -5,7 +5,7 @@
 local_version=2.5-ox2.0
 local_sakai=2.5.x
 
-MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=32m -XX:NewSize=64m -Dmaven.tomcat.home=`pwd`/build/ -Dmaven.test.skip=true -Dsakai.withjsmath=true"
+MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=96m -XX:NewSize=64m -Dmaven.tomcat.home=`pwd`/build/ -Dmaven.test.skip=true -Dsakai.withjsmath=true"
 
 export MAVEN_OPTS
 
