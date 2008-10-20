@@ -60,17 +60,4 @@
 
   </dependencies>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.sakaiproject.maven.plugins</groupId>
-	<artifactId>sakai</artifactId>
-	<version>1.2.ox1</version>
-	<inherited>true</inherited>
-	<extensions>true</extensions>
-      </plugin>
-    </plugins>
-  </build>
-
-
 </project>
