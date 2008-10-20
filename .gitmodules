@@ -138,7 +138,7 @@
 	url = ../rwiki.git
 [submodule "sakai-mock"]
 	path = sakai-mock
-	url = ../../../mirror/sakai/sakai-mock.git
+	url = ../sakai-mock.git
 [submodule "sam"]
 	path = sam
 	url = ../sam.git
