@@ -210,7 +210,7 @@
 	url = ../memory.git
 [submodule "hierarchy"]
 	path = hierarchy
-	url = ../hierarchy.git
+	url = ../../hierarchy.git
 [submodule "signup"]
 	path = signup
 	url = ../../../mirror/signup.git
@@ -222,7 +222,7 @@
 	url = ../../../mirror/test-center.git
 [submodule "melete"]
 	path = melete
-	url = ../melete.git
+	url = ../../melete.git
 [submodule "evaluation"]
 	path = evaluation
 	url = ../../../mirror/evaluation.git
