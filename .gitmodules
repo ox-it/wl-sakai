@@ -222,7 +222,7 @@
 	url = ../../../mirror/test-center.git
 [submodule "melete"]
 	path = melete
-	url = ../../../mirror/melete.git
+	url = ../melete.git
 [submodule "evaluation"]
 	path = evaluation
 	url = ../../../mirror/evaluation.git
