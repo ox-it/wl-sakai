@@ -238,3 +238,6 @@
 [submodule "discussion"]
 	path = discussion
 	url = ../../../mirror/discussion.git
+[submodule "turnitin"]
+	path = turnitin
+	url = ../../../mirror/turnitin.git

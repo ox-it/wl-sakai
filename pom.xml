@@ -274,6 +274,7 @@
 			<module>test-center</module>
 			<module>tetraelf-hierarchy</module>
 			<module>oxford</module>
+			<module>turnitin/contentreview-impl</module>
 		</modules>
 	</profile>
   </profiles>
