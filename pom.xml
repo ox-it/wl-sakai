@@ -265,6 +265,9 @@
 	</profile>
 	<profile>
 		<id>oxford</id>
+      		<activation>
+        		<activeByDefault>true</activeByDefault>
+      		</activation>
 		<modules>
 			<module>discussion</module>
 			<module>evaluation</module>
