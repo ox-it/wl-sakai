@@ -3,7 +3,7 @@
 	url = ../../../mirror/sakai/alias.git
 [submodule "announcement"]
 	path = announcement
-	url = ../../../mirror/sakai/announcement.git
+	url = ../announcement.git
 [submodule "archive"]
 	path = archive
 	url = ../../../mirror/sakai/archive.git
