@@ -159,7 +159,7 @@
 	url = ../site-manage.git
 [submodule "syllabus"]
 	path = syllabus
-	url = ../../../mirror/sakai/syllabus.git
+	url = ../syllabus.git
 [submodule "test-harness"]
 	path = test-harness
 	url = ../../../mirror/sakai/test-harness.git
