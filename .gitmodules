@@ -126,7 +126,7 @@
 	url = ../../../mirror/sakai/reports.git
 [submodule "reset-pass"]
 	path = reset-pass
-	url = ../../../mirror/sakai/reset-pass.git
+	url = ../reset-pass.git
 [submodule "rights"]
 	path = rights
 	url = ../../../mirror/sakai/rights.git
