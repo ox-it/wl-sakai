@@ -213,7 +213,7 @@
 	url = ../../hierarchy.git
 [submodule "signup"]
 	path = signup
-	url = ../../../mirror/signup.git
+	url = ../../signup.git
 [submodule "sitestats"]
 	path = sitestats
 	url = ../../../mirror/sitestats.git
