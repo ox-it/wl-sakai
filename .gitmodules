@@ -90,7 +90,7 @@
 	url = ../../../mirror/sakai/metaobj.git
 [submodule "msgcntr"]
 	path = msgcntr
-	url = ../../../mirror/sakai/msgcntr.git
+	url = ../msgcntr.git
 [submodule "osp"]
 	path = osp
 	url = ../../../mirror/sakai/osp.git
