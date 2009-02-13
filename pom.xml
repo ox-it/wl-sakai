@@ -261,6 +261,7 @@
 			<module>tetraelf-hierarchy</module>
 			<module>oxford</module>
 			<module>providers</module>
+			<module>external-groups</module>
 		</modules>
 	</profile>
 	<profile>
@@ -271,6 +272,7 @@
 		<modules>
 			<module>discussion</module>
 			<module>evaluation</module>
+			<module>external-groups</module>
 			<module>hierarchy</module>
 			<module>melete</module>
 			<module>signup</module>

@@ -241,3 +241,6 @@
 [submodule "turnitin"]
 	path = turnitin
 	url = ../../../mirror/turnitin.git
+[submodule "external-groups"]
+	path = external-groups
+	url = ../../../local-project/external-groups
