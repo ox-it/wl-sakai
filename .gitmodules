@@ -48,7 +48,7 @@
 	url = ../dav.git
 [submodule "db"]
 	path = db
-	url = ../../../mirror/sakai/db.git
+	url = ../db.git
 [submodule "entity"]
 	path = entity
 	url = ../entity.git
