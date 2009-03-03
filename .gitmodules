@@ -27,7 +27,7 @@
 	url = ../../../mirror/sakai/citations.git
 [submodule "cluster"]
 	path = cluster
-	url = ../../../mirror/sakai/cluster.git
+	url = ../cluster.git
 [submodule "component"]
 	path = component
 	url = ../component.git
