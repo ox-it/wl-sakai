@@ -27,7 +27,7 @@
 	url = ../../../mirror/sakai/citations.git
 [submodule "cluster"]
 	path = cluster
-	url = ../../../mirror/sakai/cluster.git
+	url = ../cluster.git
 [submodule "component"]
 	path = component
 	url = ../component.git
@@ -54,7 +54,7 @@
 	url = ../entity.git
 [submodule "event"]
 	path = event
-	url = ../../../mirror/sakai/event.git
+	url = ../event.git
 [submodule "gradebook"]
 	path = gradebook
 	url = ../../../mirror/sakai/gradebook.git
