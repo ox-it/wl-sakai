@@ -194,7 +194,6 @@
         <module>message</module>
         <module>metaobj</module>
         <module>msgcntr</module>
-        <module>osp</module>
         <module>podcasts</module>
         <module>portal</module>
         <module>postem</module>
@@ -239,10 +238,6 @@
 			<module>mailtool/mailtool</module>
 			<module>metaobj/metaobj-util/tool-lib</module>
 			<module>msgcntr/messageforums-app</module>
-			<module>osp/common/tool-lib</module>
-			<module>osp/glossary/tool-lib</module>
-			<module>osp/jsf/widgets</module>
-			<module>osp/presentation/tool-lib</module>
 			<module>podcasts/podcasts-app</module>
 			<module>postem/postem-app</module>
 			<module>profile/profile-app</module>

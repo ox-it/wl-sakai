@@ -91,9 +91,6 @@
 [submodule "msgcntr"]
 	path = msgcntr
 	url = ../msgcntr.git
-[submodule "osp"]
-	path = osp
-	url = ../../../mirror/sakai/osp.git
 [submodule "podcasts"]
 	path = podcasts
 	url = ../../../mirror/sakai/podcasts.git
