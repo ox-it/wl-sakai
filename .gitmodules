@@ -180,7 +180,7 @@
 	url = ../../../mirror/sakai/warehouse.git
 [submodule "web"]
 	path = web
-	url = ../../../mirror/sakai/web.git
+	url = ../web.git
 [submodule "webservices"]
 	path = webservices
 	url = ../../../mirror/sakai/webservices.git
