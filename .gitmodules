@@ -138,7 +138,7 @@
 	url = ../sakai-mock.git
 [submodule "sam"]
 	path = sam
-	url = ../sam.git
+	url = ../../../mirror/sakai/sam.git
 [submodule "samples"]
 	path = samples
 	url = ../../../mirror/sakai/samples.git
