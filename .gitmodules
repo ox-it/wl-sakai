@@ -9,7 +9,7 @@
 	url = ../../../mirror/sakai/archive.git
 [submodule "assignment"]
 	path = assignment
-	url = ../../../mirror/sakai/assignment.git
+	url = ../assignment.git
 [submodule "authz"]
 	path = authz
 	url = ../authz.git
