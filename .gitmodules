@@ -192,7 +192,7 @@
 	url = ../../../mirror/sakai/usermembership.git
 [submodule "polls"]
 	path = polls
-	url = ../../../mirror/sakai/polls.git
+	url = ../polls.git
 [submodule "access"]
 	path = access
 	url = ../access.git
