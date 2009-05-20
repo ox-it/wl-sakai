@@ -24,7 +24,7 @@
 	url = ../../../mirror/sakai/chat.git
 [submodule "citations"]
 	path = citations
-	url = ../../../mirror/sakai/citations.git
+	url = ../citations.git
 [submodule "cluster"]
 	path = cluster
 	url = ../cluster.git
