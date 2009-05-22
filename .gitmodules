@@ -228,7 +228,7 @@
 	url = ../../../mirror/ambrosia.git
 [submodule "test-center/mneme"]
 	path = test-center/mneme
-	url = ../../../mirror/mneme.git
+	url = ../../mneme.git
 [submodule "discussion"]
 	path = discussion
 	url = ../../../mirror/discussion.git
