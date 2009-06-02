@@ -238,3 +238,6 @@
 [submodule "external-groups"]
 	path = external-groups
 	url = ../../../local-project/external-groups
+[submodule "sakai-feeds"]
+	path = sakai-feeds
+	url = ../../../mirror/sakai-feeds.git
