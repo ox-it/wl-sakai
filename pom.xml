@@ -276,6 +276,7 @@
 			<module>tetraelf-hierarchy</module>
 			<module>oxford</module>
 			<module>turnitin/contentreview-impl</module>
+			<module>sakai-feeds</module>
 		</modules>
 	</profile>
   </profiles>
