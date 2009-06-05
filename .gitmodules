@@ -241,3 +241,6 @@
 [submodule "sakai-feeds"]
 	path = sakai-feeds
 	url = ../../../mirror/sakai-feeds.git
+[submodule "local-skins"]
+	path = local-skins
+	url = ../../../local-project/local-skins
