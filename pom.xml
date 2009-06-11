@@ -253,6 +253,7 @@
 		<id>oxford-framework</id>
 		<modules>
 			<module>hierarchy</module>
+			<module>local-skins</module>
 			<module>tetraelf-hierarchy</module>
 			<module>oxford</module>
 			<module>providers</module>
@@ -269,6 +270,7 @@
 			<module>evaluation</module>
 			<module>external-groups</module>
 			<module>hierarchy</module>
+			<module>local-skins</module>
 			<module>melete</module>
 			<module>signup</module>
 			<module>sitestats</module>
