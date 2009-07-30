@@ -2,7 +2,7 @@
 #
 # Short build script.
 
-local_version=2.5-ox5.3-rc1
+local_version=2.5-ox5.3-rc2
 local_sakai=2.5.x
 
 git submodule sync
