@@ -244,3 +244,6 @@
 [submodule "local-skins"]
 	path = local-skins
 	url = ../../../local-project/local-skins
+[submodule "kernel"]
+	path = kernel
+	url = ssh://git-repo.oucs.ox.ac.uk/~git/repos/mirror/sakai/kernel.git
