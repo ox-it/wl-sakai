@@ -111,7 +111,7 @@
 	url = ../../../mirror/sakai/privacy.git
 [submodule "profile"]
 	path = profile
-	url = ../profile.git
+	url = ../../../mirror/sakai/profile.git
 [submodule "providers"]
 	path = providers
 	url = ../providers.git
