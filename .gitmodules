@@ -247,3 +247,12 @@
 [submodule "kernel"]
 	path = kernel
 	url = ssh://git-repo.oucs.ox.ac.uk/~git/repos/mirror/sakai/kernel.git
+[submodule "emailtemplateservice"]
+	path = emailtemplateservice
+	url = ../../../mirror/sakai/emailtemplateservice.git
+[submodule "config"]
+	path = config
+	url = ../../../mirror/sakai/config.git
+[submodule "taggable"]
+	path = taggable
+	url = ../../../mirror/sakai/taggable.git
