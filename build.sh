@@ -2,6 +2,8 @@
 #
 # Short build script.
 
+set -e
+
 local_version=2.5-ox5.3
 local_sakai=2.5.x
 
