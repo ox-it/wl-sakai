@@ -28,9 +28,6 @@
 [submodule "cluster"]
 	path = cluster
 	url = ../cluster.git
-[submodule "component"]
-	path = component
-	url = ../component.git
 [submodule "content"]
 	path = content
 	url = ../content.git
