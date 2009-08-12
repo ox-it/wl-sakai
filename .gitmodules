@@ -25,9 +25,6 @@
 [submodule "citations"]
 	path = citations
 	url = ../citations.git
-[submodule "cluster"]
-	path = cluster
-	url = ../cluster.git
 [submodule "content"]
 	path = content
 	url = ../content.git
