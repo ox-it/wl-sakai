@@ -46,9 +46,6 @@
 [submodule "help"]
 	path = help
 	url = ../help.git
-[submodule "jcr"]
-	path = jcr
-	url = ../jcr.git
 [submodule "jobscheduler"]
 	path = jobscheduler
 	url = ../jobscheduler.git
