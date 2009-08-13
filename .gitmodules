@@ -151,9 +151,6 @@
 [submodule "user"]
 	path = user
 	url = ../user.git
-[submodule "util"]
-	path = util
-	url = ../../../mirror/sakai/util.git
 [submodule "velocity"]
 	path = velocity
 	url = ../velocity.git
