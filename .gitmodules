@@ -40,9 +40,6 @@
 [submodule "dav"]
 	path = dav
 	url = ../dav.git
-[submodule "event"]
-	path = event
-	url = ../event.git
 [submodule "gradebook"]
 	path = gradebook
 	url = ../../../mirror/sakai/gradebook.git
