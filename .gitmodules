@@ -40,9 +40,6 @@
 [submodule "dav"]
 	path = dav
 	url = ../dav.git
-[submodule "entity"]
-	path = entity
-	url = ../entity.git
 [submodule "event"]
 	path = event
 	url = ../event.git
