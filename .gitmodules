@@ -231,7 +231,7 @@
 	url = ../../../mirror/sakai/emailtemplateservice.git
 [submodule "config"]
 	path = config
-	url = ../../../mirror/sakai/config.git
+	url = ../config.git
 [submodule "taggable"]
 	path = taggable
 	url = ../../../mirror/sakai/taggable.git
