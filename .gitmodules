@@ -185,43 +185,43 @@
 	path = memory
 	url = ../memory.git
 [submodule "hierarchy"]
-	path = hierarchy
+	path = extras/hierarchy
 	url = ../../hierarchy.git
 [submodule "signup"]
-	path = signup
+	path = extras/signup
 	url = ../../../mirror/signup.git
 [submodule "sitestats"]
-	path = sitestats
+	path = extras/sitestats
 	url = ../../../mirror/sitestats.git
 [submodule "melete"]
-	path = melete
+	path = extras/melete
 	url = ../../melete.git
 [submodule "evaluation"]
-	path = evaluation
+	path = extras/evaluation
 	url = ../../evaluation.git
 [submodule "tetraelf-hierarchy"]
-	path = tetraelf-hierarchy
-	url = ../../../mirror/tetraelf-hierarchy
+	path = extras/tetraelf-hierarchy
+	url = ../../../local-project/tetraelf-hierarchy
 [submodule "test-center/ambrosia"]
-	path = test-center/ambrosia
+	path = extras/test-center/ambrosia
 	url = ../../../mirror/ambrosia.git
 [submodule "test-center/mneme"]
-	path = test-center/mneme
+	path = extras/test-center/mneme
 	url = ../../mneme.git
 [submodule "discussion"]
-	path = discussion
+	path = extras/discussion
 	url = ../../../mirror/discussion.git
 [submodule "turnitin"]
-	path = turnitin
+	path = extras/turnitin
 	url = ../../../mirror/turnitin.git
 [submodule "external-groups"]
-	path = external-groups
+	path = extras/external-groups
 	url = ../../../local-project/external-groups
 [submodule "sakai-feeds"]
-	path = sakai-feeds
+	path = extras/sakai-feeds
 	url = ../../../mirror/sakai-feeds.git
 [submodule "local-skins"]
-	path = local-skins
+	path = extras/local-skins
 	url = ../../../local-project/local-skins
 [submodule "kernel"]
 	path = kernel

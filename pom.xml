@@ -223,6 +223,38 @@
         <module>syllabus/syllabus-app</module>
       </modules>
     </profile>
+        <profile>
+       <id>oxford-framework</id>
+       <modules>
+           <module>extras/hierarchy</module>
+           <module>extras/local-skins</module>
+           <module>extras/tetraelf-hierarchy</module>
+           <module>extras/oxford</module>
+           <module>providers</module>
+           <module>extras/external-groups</module>
+       </modules>
+   </profile>
+   <profile>
+       <id>oxford</id>
+             <activation>
+               <activeByDefault>true</activeByDefault>
+             </activation>
+       <modules>
+           <module>extras/discussion</module>
+           <module>extras/evaluation</module>
+           <module>extras/external-groups</module>
+           <module>extras/hierarchy</module>
+           <module>extras/local-skins</module>
+           <module>extras/melete</module>
+           <module>extras/signup</module>
+           <module>extras/sitestats</module>
+           <module>extras/test-center</module>
+           <module>extras/tetraelf-hierarchy</module>
+           <module>extras/oxford</module>
+           <module>extras/turnitin/contentreview-impl</module>
+           <module>extras/sakai-feeds</module>
+       </modules>
+   </profile>
     <profile>
       <id>was</id>
       <modules>
