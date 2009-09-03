@@ -4,8 +4,7 @@
   <parent>
     <artifactId>base</artifactId>
     <groupId>org.sakaiproject</groupId>
-    <version>M2</version>
-    <relativePath>master/pom.xml</relativePath>
+    <version>2.6.0RC1-SNAPSHOT</version>
   </parent>
   <name>Oxford Extras</name>
   <groupId>uk.ac.ox.oucs</groupId>
@@ -34,7 +33,5 @@
 	<version>LATEST</version>
     <type>war</type>
     </dependency>
-
   </dependencies>
-
 </project>
