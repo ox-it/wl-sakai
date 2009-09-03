@@ -14,23 +14,6 @@
   <properties>
     <deploy.target>distro</deploy.target>
   </properties>
-  <!-- Needed for tinyMCE -->
-  <repositories>
-    <repository>
-      <id>sakai-maven1</id>
-      <name>Sakai Maven 1 Repository</name>
-      <url>https://source.sakaiproject.org/maven</url>
-      <layout>legacy</layout>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-        <checksumPolicy>ignore</checksumPolicy>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 
   <dependencies>
     <dependency>
