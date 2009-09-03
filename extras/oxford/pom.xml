@@ -13,24 +13,34 @@
   <properties>
     <deploy.target>distro</deploy.target>
   </properties>
-
+  <repositories>
+    <repository>
+      <id>maven-repo.oucs</id>
+      <name>OUCS Maven Repository</name>
+      <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/releases/</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>uk.ac.ox.oucs</groupId>
-      <artifactId>ROOT</artifactId>     
-      <version>LATEST</version>
+      <artifactId>portal-redirect</artifactId>     
+      <version>1.5</version>
       <type>war</type>
     </dependency>
     <dependency>
       <groupId>uk.ac.ox.oucs</groupId>
       <artifactId>tomcat-additions</artifactId>     
-      <version>LATEST</version>
+      <version>1.4</version>
       <type>pom</type>
     </dependency>
     <dependency>
 	<groupId>uk.ac.ox.oucs</groupId>
 	<artifactId>tiny_mce</artifactId>
-	<version>LATEST</version>
+	<version>1.1</version>
     <type>war</type>
     </dependency>
   </dependencies>
