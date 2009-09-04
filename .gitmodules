@@ -192,7 +192,7 @@
 	url = ../../../mirror/signup.git
 [submodule "sitestats"]
 	path = extras/sitestats
-	url = ../../../mirror/sitestats.git
+	url = ../../sitestats.git
 [submodule "melete"]
 	path = extras/melete
 	url = ../../melete.git
