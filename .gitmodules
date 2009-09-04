@@ -208,9 +208,6 @@
 [submodule "test-center/mneme"]
 	path = extras/test-center/mneme
 	url = ../../mneme.git
-[submodule "discussion"]
-	path = extras/discussion
-	url = ../../../mirror/discussion.git
 [submodule "turnitin"]
 	path = extras/turnitin
 	url = ../../../mirror/turnitin.git
