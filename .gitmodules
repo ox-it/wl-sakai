@@ -202,12 +202,15 @@
 [submodule "extra/tetraelf-hierarchy"]
 	path = extras/tetraelf-hierarchy
 	url = ../../../local-project/tetraelf-hierarchy
-[submodule "extra/test-center/ambrosia"]
-	path = extras/test-center/ambrosia
-	url = ../../../mirror/ambrosia.git
-[submodule "extra/test-center/mneme"]
-	path = extras/test-center/mneme
-	url = ../../mneme.git
+[submodule "extra/ambrosia"]
+	path = extras/ambrosia
+	url = ../../etudes/ambrosia.git
+[submodule "extra/mneme"]
+	path = extras/mneme
+	url = ../../etudes/mneme.git
+[submodule "extra/etudes-util"]
+	path = extras/etudes-util
+	url = ../../etudes/etudes-util.git
 [submodule "extra/turnitin"]
 	path = extras/turnitin
 	url = ../../../mirror/turnitin.git

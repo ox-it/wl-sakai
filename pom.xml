@@ -247,7 +247,9 @@
            <!-- <module>extras/melete</module> -->
            <module>extras/signup</module>
            <module>extras/sitestats</module>
-           <!-- <module>extras/test-center</module> -->
+           <module>extras/etudes-util</module>
+           <module>extras/mneme</module>
+           <module>extras/ambrosia</module>
            <module>extras/tetraelf-hierarchy</module>
            <module>extras/oxford</module>
            <module>extras/turnitin/contentreview-impl</module>
