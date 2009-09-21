@@ -5,6 +5,7 @@
 local_version=2.6-ox1-beta1
 local_sakai=2.6.x
 
+git submodule init
 git submodule sync
 git submodule update
 
