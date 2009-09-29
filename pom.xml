@@ -247,7 +247,7 @@
                <activeByDefault>true</activeByDefault>
              </activation>
        <modules>
-           <!-- <module>extras/evaluation</module> -->
+           <module>extras/evaluation</module>
            <module>extras/external-groups</module>
            <module>extras/hierarchy</module>
            <module>extras/local-skins</module>
