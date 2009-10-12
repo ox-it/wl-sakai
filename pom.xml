@@ -54,6 +54,13 @@
         <module>courier</module>
         <module>course-management/cm-api/api</module>
         <module>dav</module>
+        <module>emailtemplateservice/api</module>
+        <module>emailtemplateservice/impl/logic</module>
+        <module>emailtemplateservice/pack</module>
+        <module>entitybroker/api</module>
+        <module>entitybroker/impl</module>
+        <module>entitybroker/pack</module>
+        <module>entitybroker/utils</module>
         <module>login</module>
         <module>master</module>
         <module>memory</module>
@@ -240,7 +247,7 @@
                <activeByDefault>true</activeByDefault>
              </activation>
        <modules>
-           <!-- <module>extras/evaluation</module> -->
+           <module>extras/evaluation</module>
            <module>extras/external-groups</module>
            <module>extras/hierarchy</module>
            <module>extras/local-skins</module>
