@@ -251,7 +251,7 @@
            <module>extras/external-groups</module>
            <module>extras/hierarchy</module>
            <module>extras/local-skins</module>
-           <!-- <module>extras/melete</module> -->
+           <module>extras/melete</module>
            <module>extras/signup</module>
            <module>extras/sitestats</module>
            <module>extras/etudes-util</module>
