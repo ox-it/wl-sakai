@@ -42,7 +42,7 @@
 	url = ../dav.git
 [submodule "gradebook"]
 	path = gradebook
-	url = ../../../mirror/sakai/gradebook.git
+	url = ../gradebook.git
 [submodule "help"]
 	path = help
 	url = ../help.git
