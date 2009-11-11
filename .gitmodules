@@ -180,7 +180,7 @@
 	url = ../../../mirror/sakai/entitybroker.git
 [submodule "email"]
 	path = email
-	url = ../email.git
+	url = ../../../mirror/sakai/email.git
 [submodule "memory"]
 	path = memory
 	url = ../memory.git
