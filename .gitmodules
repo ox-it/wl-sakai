@@ -81,7 +81,7 @@
 	url = ../portal.git
 [submodule "postem"]
 	path = postem
-	url = ../postem.git
+	url = ../../../mirror/sakai/postem.git
 [submodule "presence"]
 	path = presence
 	url = ../../../mirror/sakai/presence.git
