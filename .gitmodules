@@ -183,7 +183,7 @@
 	url = ../../../mirror/sakai/email.git
 [submodule "memory"]
 	path = memory
-	url = ../memory.git
+	url = ../../../mirror/sakai/email.git
 [submodule "extra/hierarchy"]
 	path = extras/hierarchy
 	url = ../../hierarchy.git
