@@ -1,6 +1,6 @@
 [submodule "alias"]
 	path = alias
-	url = ../alias.git
+	url = ../../../mirror/sakai/alias.git
 [submodule "announcement"]
 	path = announcement
 	url = ../announcement.git
