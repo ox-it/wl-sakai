@@ -165,7 +165,7 @@
 	url = ../../../mirror/sakai/webservices.git
 [submodule "mailtool"]
 	path = mailtool
-	url = ../mailtool.git
+	url = ../../../mirror/sakai/mailtool.git
 [submodule "usermembership"]
 	path = usermembership
 	url = ../../../mirror/sakai/usermembership.git
@@ -178,12 +178,9 @@
 [submodule "entitybroker"]
 	path = entitybroker
 	url = ../../../mirror/sakai/entitybroker.git
-[submodule "email"]
-	path = email
-	url = ../../../mirror/sakai/email.git
 [submodule "memory"]
 	path = memory
-	url = ../../../mirror/sakai/email.git
+	url = ../../../mirror/sakai/memory.git
 [submodule "extra/hierarchy"]
 	path = extras/hierarchy
 	url = ../../hierarchy.git
