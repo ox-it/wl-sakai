@@ -36,12 +36,6 @@
   </organization>
   <profiles>
     <profile>
-      <id>pack-demo</id>
-      <modules>
-        <module>pack-demo</module>
-      </modules>
-    </profile>
-    <profile>
       <id>framework</id>
       <modules>
         <module>kernel-deploy</module>
@@ -269,6 +263,12 @@
       <id>was</id>
       <modules>
         <module>was</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>pack-build</id>
+      <modules>
+        <module>pack-build</module>
       </modules>
     </profile>
   </profiles>
