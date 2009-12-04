@@ -233,6 +233,7 @@
            <module>extras/local-skins</module>
            <module>extras/tetraelf-hierarchy</module>
            <module>extras/oxford</module>
+           <module>extras/oxford-deploy</module>
            <module>providers</module>
            <module>extras/external-groups</module>
        </modules>
