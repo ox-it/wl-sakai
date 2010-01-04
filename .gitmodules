@@ -75,7 +75,7 @@
 	url = ../msgcntr.git
 [submodule "podcasts"]
 	path = podcasts
-	url = ../../../mirror/sakai/podcasts.git
+	url = ../podcasts.git
 [submodule "portal"]
 	path = portal
 	url = ../portal.git
