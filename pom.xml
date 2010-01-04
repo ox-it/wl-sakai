@@ -55,6 +55,7 @@
         <module>emailtemplateservice/pack</module>
         <module>entitybroker/api</module>
         <module>entitybroker/impl</module>
+        <module>entitybroker/mocks</module>
         <module>entitybroker/pack</module>
         <module>entitybroker/utils</module>
         <module>login</module>
