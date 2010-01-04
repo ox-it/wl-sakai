@@ -58,6 +58,7 @@
         <module>entitybroker/mocks</module>
         <module>entitybroker/pack</module>
         <module>entitybroker/utils</module>
+        <module>jsf</module>
         <module>login</module>
         <module>master</module>
         <module>memory</module>
