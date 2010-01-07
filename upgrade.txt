@@ -1,2 +1,5 @@
 Actions for Next Upgrade
 ========================
+
+These are now stored in the WebLearn wiki at:
+http://wiki.oucs.ox.ac.uk/weblearn/UpgradeMisc
