@@ -11,9 +11,11 @@
   <artifactId>oxford-deploy</artifactId>
   <packaging>pom</packaging>
   <name>Oxford Deploy</name>
+  <description>This is used to deploy prebuilt assemblies</description>
   <version>2.6-SNAPSHOT</version>
   <properties>
     <clean.targets>components/content-cleanup</clean.targets>
+    <clean.targets>components/oauth-pack</clean.targets>
     <deploy.target>tomcat-overlay</deploy.target>
   </properties>
   <repositories>
@@ -37,6 +39,12 @@
       <classifier>tomcat-overlay</classifier>
       <type>zip</type>
     </dependency>
-
+    <dependency>
+      <groupId>uk.ac.ox.oucs</groupId>
+      <artifactId>oauth-assembly</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>tomcat-overlay</classifier>
+      <type>zip</type>
+    </dependency>
   </dependencies>
 </project>
