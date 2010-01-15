@@ -258,6 +258,7 @@
            <module>extras/ambrosia</module>
            <module>extras/tetraelf-hierarchy</module>
            <module>extras/oxford</module>
+           <module>extras/oxford-deploy</module>
            <module>extras/turnitin/contentreview-impl</module>
            <module>extras/sakai-feeds</module>
        </modules>

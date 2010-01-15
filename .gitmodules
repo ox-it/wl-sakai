@@ -177,7 +177,7 @@
 	url = ../access.git
 [submodule "entitybroker"]
 	path = entitybroker
-	url = ../../../mirror/sakai/entitybroker.git
+	url = ../entitybroker.git
 [submodule "memory"]
 	path = memory
 	url = ../../../mirror/sakai/memory.git
