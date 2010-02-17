@@ -192,7 +192,7 @@
 	url = ../../sitestats.git
 [submodule "extra/melete"]
 	path = extras/melete
-	url = ../../melete.git
+	url = ../../../mirror/etudes/melete.git
 [submodule "extra/evaluation"]
 	path = extras/evaluation
 	url = ../../evaluation.git
