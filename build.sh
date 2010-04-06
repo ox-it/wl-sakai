@@ -2,14 +2,14 @@
 #
 # Short build script.
 
-local_version=2.6-ox2.1
+local_version=2.6-ox3-beta1
 local_sakai=2.6.x
 
 git submodule init
 git submodule sync
 git submodule update
 
-MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=128m -XX:NewSize=64m -Dmaven.test.skip=true -Dsakai.withjsmath=true"
+MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=128m -XX:NewSize=64m -Dmaven.test.skip=true"
 
 export MAVEN_OPTS
 
