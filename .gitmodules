@@ -6,7 +6,7 @@
 	url = ../announcement.git
 [submodule "archive"]
 	path = archive
-	url = ../../../mirror/sakai/archive.git
+	url = ../archive.git
 [submodule "assignment"]
 	path = assignment
 	url = ../assignment.git
