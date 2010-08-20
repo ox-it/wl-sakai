@@ -184,6 +184,9 @@
 [submodule "extra/hierarchy"]
 	path = extras/hierarchy
 	url = ../../hierarchy.git
+[submodule "extra/course-signup"]
+	path = extras/course-signup
+	url = ../../course-signup.git
 [submodule "extra/signup"]
 	path = extras/signup
 	url = ../../signup.git
