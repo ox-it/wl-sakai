@@ -246,6 +246,7 @@
                <activeByDefault>true</activeByDefault>
              </activation>
        <modules>
+           <module>extras/course-signup</module>
            <module>extras/evaluation</module>
            <module>extras/external-groups</module>
            <module>extras/hierarchy</module>
