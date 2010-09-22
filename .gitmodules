@@ -235,3 +235,6 @@
 [submodule "taggable"]
 	path = taggable
 	url = ../../../mirror/sakai/taggable.git
+[submodule "extras/oxford-url-shortener"]
+	path = extras/oxford-url-shortener
+	url = ../../../mirror/oxford-url-shortener.git

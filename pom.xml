@@ -262,6 +262,7 @@
            <module>extras/oxford-deploy</module>
            <module>extras/turnitin/contentreview-impl</module>
            <module>extras/sakai-feeds</module>
+           <module>extras/oxford-url-shortener</module>
        </modules>
    </profile>
     <profile>
