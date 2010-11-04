@@ -8,6 +8,7 @@
   <artifactId>clean-repo</artifactId>
   <packaging>pom</packaging>
   <!-- Warning this will delete everything in your maven repository -->
+  <build>
     <plugins> 
       <plugin> 
         <artifactId>maven-clean-plugin</artifactId> 
@@ -25,4 +26,5 @@
           </configuration> 
         </plugin> 
     </plugins> 
+  </build>
 </project>
