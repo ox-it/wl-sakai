@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <name>Clean Maven Repository</name>
+  <groupId>org.sakaiproject</groupId>
+  <artifactId>clean-repo</artifactId>
+  <packaging>pom</packaging>
+  <!-- Warning this will delete everything in your maven repository -->
+    <plugins> 
+      <plugin> 
+        <artifactId>maven-clean-plugin</artifactId> 
+          <inherited>false</inherited> 
+          <configuration> 
+            <filesets> 
+              <fileset> 
+                <directory>${settings.localRepository}/</directory> 
+                <includes> 
+                  <include>**/*</include>                 
+                </includes> 
+                <followSymlinks>false</followSymlinks> 
+              </fileset> 
+            </filesets> 
+          </configuration> 
+        </plugin> 
+    </plugins> 
+</project>
