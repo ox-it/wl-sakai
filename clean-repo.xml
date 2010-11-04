@@ -6,6 +6,7 @@
   <name>Clean Maven Repository</name>
   <groupId>org.sakaiproject</groupId>
   <artifactId>clean-repo</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <!-- Warning this will delete everything in your maven repository -->
   <build>
