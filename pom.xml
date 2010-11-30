@@ -263,6 +263,7 @@
            <module>extras/turnitin/contentreview-impl</module>
            <module>extras/sakai-feeds</module>
            <module>extras/oxford-url-shortener</module>
+           <module>extras/sirlouie</module>
        </modules>
    </profile>
     <profile>
