@@ -144,7 +144,7 @@
 	url = ../../../mirror/sakai/test-harness.git
 [submodule "textarea"]
 	path = textarea
-	url = ../../../mirror/sakai/textarea.git
+	url = ../textarea.git
 [submodule "tool"]
 	path = tool
 	url = ../tool.git
