@@ -54,6 +54,13 @@
           <classifier>tomcat-overlay</classifier>
           <type>zip</type>
         </dependency>
+        <dependency>
+          <groupId>uk.ac.ox.oucs</groupId>
+          <artifactId>proxy-assembly</artifactId>
+          <version>1.1</version>
+          <classifier>tomcat-overlay</classifier>
+          <type>zip</type>
+        </dependency>
       </dependencies>
     </profile>
     <profile>
