@@ -132,7 +132,7 @@
 	url = ../../../mirror/sakai/sections.git
 [submodule "site"]
 	path = site
-	url = ../../../mirror/sakai/site.git
+	url = ../site.git
 [submodule "site-manage"]
 	path = site-manage
 	url = ../site-manage.git
