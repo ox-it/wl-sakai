@@ -1,12 +1,10 @@
 <?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>master</artifactId>
     <groupId>org.sakaiproject</groupId>
-    <version>2.6-SNAPSHOT</version>
+    <version>2.8-SNAPSHOT</version>
     <relativePath>master/pom.xml</relativePath>
   </parent>
   <name>Sakai Core Project </name>
@@ -26,8 +24,10 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:https://source.sakaiproject.org/svn/sakai/trunk</connection>
-    <developerConnection>scm:svn:https://source.sakaiproject.org/svn/sakai/trunk</developerConnection>
+    <connection>scm:svn:https://source.sakaiproject.org/svn/sakai/trunk
+    </connection>
+    <developerConnection>scm:svn:https://source.sakaiproject.org/svn/sakai/trunk
+    </developerConnection>
     <url>https://source.sakaiproject.org/svn/sakai/trunk</url>
   </scm>
   <organization>
@@ -39,100 +39,30 @@
       <id>framework</id>
       <modules>
         <module>kernel-deploy</module>
+        <module>framework-shared-deploy</module>
+        <module>jstl-shared-deploy</module>
         <module>access</module>
         <module>alias</module>
         <module>announcement/announcement-api/api</module>
-        <module>archive/archive-api/api</module>
-        <module>archive/import-api</module>
         <module>authz</module>
         <module>config</module>
         <module>content</module>
         <module>courier</module>
-        <module>course-management/cm-api/api</module>
         <module>dav</module>
-        <module>emailtemplateservice/api</module>
-        <module>emailtemplateservice/impl/logic</module>
-        <module>emailtemplateservice/pack</module>
-        <module>entitybroker/api</module>
-        <module>entitybroker/impl</module>
-        <module>entitybroker/mocks</module>
-        <module>entitybroker/pack</module>
-        <module>entitybroker/utils</module>
-        <module>jsf</module>
         <module>login</module>
         <module>master</module>
         <module>memory</module>
         <module>message/message-api/api</module>
         <module>portal</module>
         <module>presence/presence-api/api</module>
-        <module>jobscheduler/scheduler-api</module>
+        <!-- <module>jobscheduler/scheduler-api</module> -->
         <module>reference/library</module>
-        <module>sakai-mock</module>
         <module>site</module>
         <module>site-manage</module>
-        <module>test-harness</module>
         <module>tool</module>
         <module>user</module>
         <module>velocity</module>
         <module>web</module>
-      </modules>
-    </profile>
-    <profile>
-      <id>mini</id>
-      <modules>
-        <module>kernel-deploy</module>
-        <module>access</module>
-        <module>alias/alias-api/api</module>
-        <module>alias/alias-impl/impl</module>
-        <module>alias/alias-impl/pack</module>
-        <module>authz/authz-api/api</module>
-        <module>authz/authz-impl/impl</module>
-        <module>authz/authz-impl/pack</module>
-        <module>config</module>
-        <module>content/content-api/api</module>
-        <module>content/content-impl/impl</module>
-        <module>content/content-impl/pack</module>
-        <module>content/content-impl/hbm</module>
-        <module>courier/courier-api/api</module>
-        <module>courier/courier-impl/impl</module>
-        <module>courier/courier-impl/pack</module>
-        <module>courier/courier-util/util</module>
-        <module>jsf</module>
-        <module>login</module>
-        <module>master</module>
-        <module>message/message-api/api</module>
-        <module>message/message-impl/impl</module>
-        <module>mailarchive/mailarchive-api/api</module>
-        <module>mailarchive/mailarchive-impl/impl</module>
-        <module>mailarchive/mailarchive-impl/pack</module>
-        <module>memory/memory-api/api</module>
-        <module>memory/memory-impl/impl</module>
-        <module>memory/memory-impl/pack</module>
-        <module>metaobj/metaobj-api/api</module>
-        <module>metaobj/metaobj-impl</module>
-        <module>portal</module>
-        <module>presence/presence-api/api</module>
-        <module>reference/library</module>
-        <module>sakai-mock</module>
-        <module>site/site-api/api</module>
-        <module>site/site-impl/impl</module>
-        <module>site/site-impl/pack</module>
-        <module>site-manage/site-manage-api/api</module>
-        <module>site-manage/site-manage-impl/impl</module>
-        <module>site-manage/site-manage-impl/pack</module>
-        <module>site-manage/site-manage-util/util</module>
-        <module>test-harness</module>
-        <module>tool/tool-api/api</module>
-        <module>tool/tool-impl/impl</module>
-        <module>tool/tool-impl/pack</module>
-        <module>tool/tool-util/util</module>
-        <module>tool/tool-util/servlet</module>
-        <module>tool/tool-shared-deploy</module>
-        <module>user/user-api/api</module>
-        <module>user/user-impl/impl</module>
-        <module>user/user-impl/pack</module>
-        <module>user/user-util/util</module>
-        <module>velocity</module>
       </modules>
     </profile>
     <profile>
@@ -143,69 +73,137 @@
       <modules>
         <module>kernel-deploy</module>
         <module>master</module>
+        <module>core-deploy</module>
+        <module>jstl-shared-deploy</module>
         <module>access</module>
         <module>alias</module>
         <module>announcement</module>
         <module>archive</module>
         <module>assignment</module>
         <module>authz</module>
-        <module>blog</module>
         <module>calendar</module>
         <module>chat</module>
         <module>citations</module>
         <module>config</module>
         <module>content</module>
-        <module>content-review</module>
         <module>courier</module>
-        <module>course-management</module>
         <module>dav</module>
-        <module>emailtemplateservice</module>
-        <module>entitybroker</module>
         <module>gradebook</module>
         <module>help</module>
-        <module>jobscheduler</module>
-        <module>jsf</module>
         <module>linktool</module>
         <module>login</module>
         <module>mailarchive</module>
         <module>memory</module>
         <module>message</module>
         <module>metaobj</module>
-        <module>msgcntr</module>
+        <module>osp</module>
         <module>podcasts</module>
         <module>portal</module>
         <module>postem</module>
         <module>presence</module>
-        <module>presentation</module>
-        <module>privacy</module>
-        <module>profile</module>
         <module>providers</module>
         <module>reference</module>
         <module>rights</module>
         <module>roster</module>
         <module>rwiki</module>
-        <module>sam</module>
-        <module>samples</module>
-        <module>search</module>
         <module>sections</module>
         <module>site</module>
         <module>site-manage</module>
         <module>syllabus</module>
-        <module>test-harness</module>
+        <module>taggable</module>
         <module>textarea</module>
         <module>tool</module>
         <module>user</module>
         <module>velocity</module>
-        <module>web</module>
-        <module>webservices</module>
-        <module>mailtool</module>
-        <module>polls</module>
-        <module>usermembership</module>
-        <module>sakai-mock</module>
         <module>warehouse</module>
-        <module>reports</module>
-        <module>reset-pass</module>
+        <module>web</module>
+        <module>usermembership</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>experimental</id>
+      <modules>
+        <module>kernel-deploy</module>
+        <module>master</module>
+        <module>core-deploy</module>
+        <module>jstl-shared-deploy</module>
+        <module>access</module>
+        <module>alias</module>
+        <module>announcement</module>
+        <module>archive</module>
+        <module>assignment</module>
+        <module>authz</module>
+        <module>calendar</module>
+        <module>chat</module>
+        <module>citations</module>
+        <module>config</module>
+        <module>content</module>
+        <module>courier</module>
+        <module>dav</module>
+        <module>gradebook</module>
+        <module>help</module>
+        <module>linktool</module>
+        <module>login</module>
+        <module>mailarchive</module>
+        <module>memory</module>
+        <module>message</module>
+        <module>metaobj</module>
+        <module>osp</module>
+        <module>podcasts</module>
+        <module>portal</module>
+        <module>postem</module>
+        <module>presence</module>
+        <module>providers</module>
+        <module>reference</module>
+        <module>rights</module>
+        <module>roster</module>
+        <module>rwiki</module>
+        <module>sections</module>
+        <module>site</module>
+        <module>site-manage</module>
+        <module>syllabus</module>
         <module>taggable</module>
+        <module>textarea</module>
+        <module>tool</module>
+        <module>user</module>
+        <module>usermembership</module>
+        <module>velocity</module>
+        <module>warehouse</module>
+        <module>web</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>cafe</id>
+      <modules>
+        <module>kernel-deploy</module>
+        <module>core-deploy</module>
+        <module>framework-shared-deploy</module>
+        <module>jstl-shared-deploy</module>
+        <module>access</module>
+        <module>alias</module>
+        <module>announcement/announcement-api/api</module>
+        <module>announcement/announcement-impl/impl</module>
+        <module>announcement/announcement-impl/pack</module>
+        <module>archive</module>
+        <module>authz</module>
+        <module>config</module>
+        <module>content/content-bundles</module>
+        <module>content/content-help</module>
+        <module>content/content-tool/tool</module>
+        <module>courier</module>
+        <module>help</module>
+        <module>login</module>
+        <module>master</module>
+        <module>message</module>
+        <module>memory</module>
+        <module>portal</module>
+        <module>presence/presence-api/api</module>
+        <module>reference</module>
+        <module>site</module>
+        <module>site-manage</module>
+        <module>tool</module>
+        <module>user/user-tool/tool</module>
+        <module>velocity</module>
       </modules>
     </profile>
     <profile>
@@ -213,59 +211,62 @@
       <modules>
         <module>gradebook/app/ui</module>
         <module>help/help-tool</module>
-        <module>jsf/widgets</module>
-        <module>mailtool/mailtool</module>
+        <!-- <module>jsf/jsf-widgets</module> -->
         <module>metaobj/metaobj-util/tool-lib</module>
-        <module>msgcntr/messageforums-app</module>
+        <!-- <module>msgcntr/messageforums-app</module> -->
+        <module>osp/common/tool-lib</module>
+        <module>osp/glossary/tool-lib</module>
+        <module>osp/jsf/widgets</module>
+        <module>osp/presentation/tool-lib</module>
         <module>podcasts/podcasts-app</module>
         <module>postem/postem-app</module>
-        <module>profile/profile-app</module>
+        <!-- <module>profile/profile-app</module> -->
         <module>roster/roster-app</module>
         <module>rwiki/rwiki-tool/tool</module>
-        <module>sam/samigo-app</module>
+        <!-- <module>sam/samigo-app</module> -->
         <module>sections/sections-app</module>
         <module>sections/sections-app-util</module>
         <module>syllabus/syllabus-app</module>
       </modules>
     </profile>
-        <profile>
-       <id>oxford-framework</id>
-       <modules>
-           <module>extras/hierarchy</module>
-           <module>extras/local-skins</module>
-           <module>extras/tetraelf-hierarchy</module>
-           <module>extras/oxford</module>
-           <module>extras/oxford-deploy</module>
-           <module>providers</module>
-           <module>extras/external-groups</module>
-       </modules>
-   </profile>
-   <profile>
-       <id>oxford</id>
-             <activation>
-               <activeByDefault>true</activeByDefault>
-             </activation>
-       <modules>
-           <module>extras/course-signup</module>
-           <module>extras/evaluation</module>
-           <module>extras/external-groups</module>
-           <module>extras/hierarchy</module>
-           <module>extras/local-skins</module>
-           <module>extras/melete</module>
-           <module>extras/signup</module>
-           <module>extras/sitestats</module>
-           <module>extras/etudes-util</module>
-           <module>extras/mneme</module>
-           <module>extras/ambrosia</module>
-           <module>extras/tetraelf-hierarchy</module>
-           <module>extras/oxford</module>
-           <module>extras/oxford-deploy</module>
-           <module>extras/turnitin/contentreview-impl</module>
-           <module>extras/sakai-feeds</module>
-           <module>extras/oxford-url-shortener</module>
-           <module>extras/sirlouie</module>
-       </modules>
-   </profile>
+    <profile>
+      <id>oxford-framework</id>
+      <modules>
+        <module>extras/hierarchy</module>
+        <module>extras/local-skins</module>
+        <module>extras/tetraelf-hierarchy</module>
+        <module>extras/oxford</module>
+        <module>extras/oxford-deploy</module>
+        <module>providers</module>
+        <module>extras/external-groups</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>oxford</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <modules>
+        <module>extras/course-signup</module>
+        <module>extras/evaluation</module>
+        <module>extras/external-groups</module>
+        <module>extras/hierarchy</module>
+        <module>extras/local-skins</module>
+        <module>extras/melete</module>
+        <module>extras/signup</module>
+        <module>extras/sitestats</module>
+        <module>extras/etudes-util</module>
+        <module>extras/mneme</module>
+        <module>extras/ambrosia</module>
+        <module>extras/tetraelf-hierarchy</module>
+        <module>extras/oxford</module>
+        <module>extras/oxford-deploy</module>
+        <module>extras/turnitin/contentreview-impl</module>
+        <module>extras/sakai-feeds</module>
+        <module>extras/oxford-url-shortener</module>
+        <module>extras/sirlouie</module>
+      </modules>
+    </profile>
     <profile>
       <id>was</id>
       <modules>
@@ -282,33 +283,25 @@
   <reporting>
     <plugins>
       <plugin>
-<!-- javadocs -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.7</version>
         <configuration>
           <debug>true</debug>
           <links>
-            <link>http://java.sun.com/j2se/1.5.0/docs/api/</link>
+            <link>http://download.oracle.com/javase/1.5.0/docs/api/
+            </link>
+            <link>http://download.oracle.com/javase/6/docs/api/</link>
           </links>
           <breakiterator>true</breakiterator>
           <verbose>false</verbose>
           <aggregate>true</aggregate>
-<!-- allows javadocs builds to succeed
-          <maxmemory>512m</maxmemory>
-          <additionalJOption>-J-Xms168m -J-Xmx512m -J-XX:PermSize=128m -J-XX:NewSize=64m</additionalJOption>
-          <version>2.3</version>
--->
+          <minmemory>168m</minmemory>
+          <maxmemory>1024m</maxmemory>
+          <additionalJOption>-J-Xms168m -J-Xmx1024m -J-XX:PermSize=128m
+            -J-XX:NewSize=64m</additionalJOption>
         </configuration>
       </plugin>
-<!--
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <configuration>
-          <aggregate>true</aggregate>
-        </configuration>
-      </plugin>
--->
     </plugins>
   </reporting>
 </project>
