@@ -241,3 +241,6 @@
 [submodule "extras/sirlouie"]
 	path = extras/sirlouie
 	url = ../../../local-project/sirlouie
+[submodule "extras/oxam"]
+	path = extras/oxam
+	url = ../../../local-project/oxam/
