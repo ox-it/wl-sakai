@@ -4,9 +4,6 @@
 [submodule "announcement"]
 	path = announcement
 	url = ../announcement.git
-[submodule "archive"]
-	path = archive
-	url = ../archive.git
 [submodule "assignment"]
 	path = assignment
 	url = ../assignment.git
@@ -42,7 +39,7 @@
 	url = ../dav.git
 [submodule "gradebook"]
 	path = gradebook
-	url = ../gradebook.git
+	url = ../../../mirror/sakai/gradebook.git
 [submodule "help"]
 	path = help
 	url = ../help.git
@@ -52,9 +49,6 @@
 [submodule "jsf"]
 	path = jsf
 	url = ../../../mirror/sakai/jsf.git
-[submodule "linktool"]
-	path = linktool
-	url = ../../../mirror/sakai/linktool.git
 [submodule "login"]
 	path = login
 	url = ../login.git
