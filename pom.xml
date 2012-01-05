@@ -223,7 +223,6 @@
     <profile>
       <id>oxford-custom</id>
       <modules>
-        <module>jobscheduler</module>
       </modules>
     </profile>
     <profile>
@@ -236,6 +235,7 @@
         <module>extras/oxford-deploy</module>
         <module>providers</module>
         <module>extras/external-groups</module>
+        <module>jobscheduler</module>
       </modules>
     </profile>
     <profile>
@@ -261,6 +261,7 @@
         <module>extras/sakai-feeds</module>
         <module>extras/oxford-url-shortener</module>
         <module>extras/sirlouie</module>
+        <module>jobscheduler</module>
       </modules>
     </profile>
     <profile>
