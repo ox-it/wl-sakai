@@ -78,7 +78,6 @@
         <module>access</module>
         <module>alias</module>
         <module>announcement</module>
-        <module>archive</module>
         <module>assignment</module>
         <module>authz</module>
         <module>calendar</module>
@@ -90,7 +89,6 @@
         <module>dav</module>
         <module>gradebook</module>
         <module>help</module>
-        <module>linktool</module>
         <module>login</module>
         <module>mailarchive</module>
         <module>memory</module>
@@ -141,7 +139,6 @@
         <module>dav</module>
         <module>gradebook</module>
         <module>help</module>
-        <module>linktool</module>
         <module>login</module>
         <module>mailarchive</module>
         <module>memory</module>
