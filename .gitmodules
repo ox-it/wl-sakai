@@ -217,8 +217,8 @@
 [submodule "extra/local-skins"]
 	path = extras/local-skins
 	url = ../../../local-project/local-skins
-[submodule "kernel"]
-	path = kernel
+[submodule "indie/kernel"]
+	path = indie/kernel
 	url = ../kernel.git
 [submodule "emailtemplateservice"]
 	path = emailtemplateservice
