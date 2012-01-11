@@ -169,8 +169,8 @@
 [submodule "access"]
 	path = access
 	url = ../access.git
-[submodule "entitybroker"]
-	path = entitybroker
+[submodule "indie/entitybroker"]
+	path = indie/entitybroker
 	url = ../entitybroker.git
 [submodule "memory"]
 	path = memory
