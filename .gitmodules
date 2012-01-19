@@ -184,9 +184,6 @@
 [submodule "extra/signup"]
 	path = extras/signup
 	url = ../../signup.git
-[submodule "extra/sitestats"]
-	path = extras/sitestats
-	url = ../../sitestats.git
 [submodule "extra/melete"]
 	path = extras/melete
 	url = ../../../mirror/etudes/melete.git
