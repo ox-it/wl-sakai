@@ -210,7 +210,7 @@
 	url = ../../../local-project/external-groups
 [submodule "extra/sakai-feeds"]
 	path = extras/sakai-feeds
-	url = ../../../mirror/sakai-feeds.git
+	url = ../sakai-feeds.git
 [submodule "extra/local-skins"]
 	path = extras/local-skins
 	url = ../../../local-project/local-skins
