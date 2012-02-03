@@ -21,19 +21,6 @@
     <clean.targets>components/basiclti-pack</clean.targets>
     <deploy.target>tomcat-overlay</deploy.target>
   </properties>
-  <repositories>
-    <repository>
-      <id>maven-repo.oucs</id>
-      <name>OUCS Maven Snapshot Repository</name>
-      <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-    </repository>
-  </repositories>
   <profiles>
     <profile>
       <id>oxford-full</id>
