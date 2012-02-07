@@ -175,6 +175,9 @@
 [submodule "extra/hierarchy"]
 	path = extras/hierarchy
 	url = ../../hierarchy.git
+[submodule "extra/course-signup"]
+    path = extras/course-signup
+    url = ../../../local-project/course-signup
 [submodule "indie/signup"]
 	path = indie/signup
 	url = ../../signup.git
