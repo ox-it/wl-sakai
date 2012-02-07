@@ -178,8 +178,8 @@
 [submodule "extra/course-signup"]
 	path = extras/course-signup
 	url = ../../../local-project/course-signup
-[submodule "extra/signup"]
-	path = extras/signup
+[submodule "indie/signup"]
+	path = indie/signup
 	url = ../../signup.git
 [submodule "extra/melete"]
 	path = extras/melete
