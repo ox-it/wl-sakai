@@ -231,4 +231,4 @@
 	url = ../../../local-project/sirlouie
 [submodule "indie/sakai-feeds"]
 	path = indie/sakai-feeds
-	url = ssh://git-repo.oucs.ox.ac.uk/~git/repos/local-version/sakai-feeds.git
+	url = ../../sakai-feeds.git
