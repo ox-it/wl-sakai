@@ -25,9 +25,6 @@
 [submodule "content"]
 	path = content
 	url = ../content.git
-[submodule "content-review"]
-	path = content-review
-	url = ../../../mirror/sakai/content-review.git
 [submodule "courier"]
 	path = courier
 	url = ../../../mirror/sakai/courier.git
