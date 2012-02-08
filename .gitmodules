@@ -154,9 +154,6 @@
 [submodule "web"]
 	path = web
 	url = ../web.git
-[submodule "webservices"]
-	path = webservices
-	url = ../../../mirror/sakai/webservices.git
 [submodule "usermembership"]
 	path = usermembership
 	url = ../../../mirror/sakai/usermembership.git
