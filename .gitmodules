@@ -40,9 +40,6 @@
 [submodule "jobscheduler"]
 	path = jobscheduler
 	url = ../jobscheduler.git
-[submodule "jsf"]
-	path = jsf
-	url = ../../../mirror/sakai/jsf.git
 [submodule "login"]
 	path = login
 	url = ../login.git
@@ -151,9 +148,6 @@
 [submodule "usermembership"]
 	path = usermembership
 	url = ../../../mirror/sakai/usermembership.git
-[submodule "polls"]
-	path = polls
-	url = ../polls.git
 [submodule "access"]
 	path = access
 	url = ../access.git
@@ -220,3 +214,6 @@
 [submodule "indie/sakai-feeds"]
 	path = indie/sakai-feeds
 	url = ../../sakai-feeds.git
+[submodule "indie/polls"]
+	path = indie/polls
+	url = ../polls.git
