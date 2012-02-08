@@ -71,6 +71,13 @@
           <classifier>tomcat-overlay</classifier>
           <type>zip</type>
         </dependency>
+        <dependency>
+          <groupId>org.sakaiproject</groupId>
+          <artifactId>sakai-feeds-assembly</artifactId>
+          <version>1.16ox1</version>
+          <classifier>tomcat-overlay</classifier>
+          <type>zip</type>
+        </dependency>
       </dependencies>
     </profile>
     <profile>
