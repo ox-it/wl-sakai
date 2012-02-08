@@ -31,9 +31,6 @@
 [submodule "courier"]
 	path = courier
 	url = ../../../mirror/sakai/courier.git
-[submodule "course-management"]
-	path = course-management
-	url = ../../../mirror/sakai/course-management.git
 [submodule "dav"]
 	path = dav
 	url = ../dav.git
@@ -211,9 +208,6 @@
 [submodule "indie/kernel"]
 	path = indie/kernel
 	url = ../kernel.git
-[submodule "emailtemplateservice"]
-	path = emailtemplateservice
-	url = ../../../mirror/sakai/emailtemplateservice.git
 [submodule "config"]
 	path = config
 	url = ../config.git
