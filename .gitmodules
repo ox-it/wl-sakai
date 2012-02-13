@@ -25,15 +25,9 @@
 [submodule "content"]
 	path = content
 	url = ../content.git
-[submodule "content-review"]
-	path = content-review
-	url = ../../../mirror/sakai/content-review.git
 [submodule "courier"]
 	path = courier
 	url = ../../../mirror/sakai/courier.git
-[submodule "course-management"]
-	path = course-management
-	url = ../../../mirror/sakai/course-management.git
 [submodule "dav"]
 	path = dav
 	url = ../dav.git
@@ -46,9 +40,6 @@
 [submodule "jobscheduler"]
 	path = jobscheduler
 	url = ../jobscheduler.git
-[submodule "jsf"]
-	path = jsf
-	url = ../../../mirror/sakai/jsf.git
 [submodule "login"]
 	path = login
 	url = ../login.git
@@ -85,9 +76,6 @@
 [submodule "privacy"]
 	path = privacy
 	url = ../../../mirror/sakai/privacy.git
-[submodule "profile"]
-	path = profile
-	url = ../../../mirror/sakai/profile.git
 [submodule "providers"]
 	path = providers
 	url = ../providers.git
@@ -154,18 +142,9 @@
 [submodule "web"]
 	path = web
 	url = ../web.git
-[submodule "webservices"]
-	path = webservices
-	url = ../../../mirror/sakai/webservices.git
-[submodule "mailtool"]
-	path = mailtool
-	url = ../../../mirror/sakai/mailtool.git
 [submodule "usermembership"]
 	path = usermembership
 	url = ../../../mirror/sakai/usermembership.git
-[submodule "polls"]
-	path = polls
-	url = ../polls.git
 [submodule "access"]
 	path = access
 	url = ../access.git
@@ -179,10 +158,10 @@
 	path = extras/hierarchy
 	url = ../../hierarchy.git
 [submodule "extra/course-signup"]
-	path = extras/course-signup
-	url = ../../../local-project/course-signup
-[submodule "extra/signup"]
-	path = extras/signup
+    path = extras/course-signup
+    url = ../../../local-project/course-signup
+[submodule "indie/signup"]
+	path = indie/signup
 	url = ../../signup.git
 [submodule "extra/melete"]
 	path = extras/melete
@@ -210,16 +189,13 @@
 	url = ../../../local-project/external-groups
 [submodule "extra/sakai-feeds"]
 	path = extras/sakai-feeds
-	url = ../../../mirror/sakai-feeds.git
-[submodule "extra/local-skins"]
-	path = extras/local-skins
+	url = ../../sakai-feeds.git
+[submodule "indie/local-skins"]
+	path = indie/local-skins
 	url = ../../../local-project/local-skins
 [submodule "indie/kernel"]
 	path = indie/kernel
 	url = ../kernel.git
-[submodule "emailtemplateservice"]
-	path = emailtemplateservice
-	url = ../../../mirror/sakai/emailtemplateservice.git
 [submodule "config"]
 	path = config
 	url = ../config.git
@@ -232,3 +208,9 @@
 [submodule "extras/sirlouie"]
 	path = extras/sirlouie
 	url = ../../../local-project/sirlouie
+[submodule "indie/sakai-feeds"]
+	path = indie/sakai-feeds
+	url = ../../sakai-feeds.git
+[submodule "indie/polls"]
+	path = indie/polls
+	url = ../polls.git

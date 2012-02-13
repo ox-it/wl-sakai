@@ -229,7 +229,6 @@
       <id>oxford-framework</id>
       <modules>
         <module>extras/hierarchy</module>
-        <module>extras/local-skins</module>
         <module>extras/tetraelf-hierarchy</module>
         <module>extras/oxford</module>
         <module>extras/oxford-deploy</module>
@@ -248,9 +247,7 @@
         <module>extras/evaluation</module>
         <module>extras/external-groups</module>
         <module>extras/hierarchy</module>
-        <module>extras/local-skins</module>
         <module>extras/melete</module>
-        <module>extras/signup</module>
         <module>extras/etudes-util</module>
         <module>extras/mneme</module>
         <module>extras/ambrosia</module>
@@ -258,7 +255,6 @@
         <module>extras/oxford</module>
         <module>extras/oxford-deploy</module>
         <module>extras/turnitin/contentreview-impl</module>
-        <module>extras/sakai-feeds</module>
         <module>extras/oxford-url-shortener</module>
         <module>extras/sirlouie</module>
         <module>jobscheduler</module>
