@@ -214,3 +214,6 @@
 [submodule "indie/polls"]
 	path = indie/polls
 	url = ../polls.git
+[submodule "archive"]
+	path = archive
+	url = ../../../mirror/sakai/archive.git
