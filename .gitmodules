@@ -217,3 +217,6 @@
 [submodule "archive"]
 	path = archive
 	url = ../../../mirror/sakai/archive.git
+[submodule "indie/member-profile-provider"]
+	path = indie/member-profile-provider
+	url = ../../../local-project/member-profile-provider
