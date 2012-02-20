@@ -220,3 +220,6 @@
 [submodule "indie/common"]
 	path = indie/common
 	url = ../common.git
+[submodule "indie/member-profile-provider"]
+	path = indie/member-profile-provider
+	url = ../../../local-project/member-profile-provider
