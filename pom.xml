@@ -71,6 +71,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <modules>
+        <module>archive</module>
         <module>kernel-deploy</module>
         <module>master</module>
         <module>core-deploy</module>
@@ -206,12 +207,10 @@
       <modules>
         <module>gradebook/app/ui</module>
         <module>help/help-tool</module>
-        <!-- <module>jsf/jsf-widgets</module> -->
         <module>metaobj/metaobj-util/tool-lib</module>
         <!-- <module>msgcntr/messageforums-app</module> -->
         <module>podcasts/podcasts-app</module>
         <module>postem/postem-app</module>
-        <!-- <module>profile/profile-app</module> -->
         <module>roster/roster-app</module>
         <module>rwiki/rwiki-tool/tool</module>
         <!-- <module>sam/samigo-app</module> -->
