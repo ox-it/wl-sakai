@@ -2,8 +2,8 @@
 #
 # Short build script.
 
-local_version=2.6-ox8.1-rc1
-local_sakai=2.6.x
+local_version=2.8-ox1-beta1
+local_sakai=2.8.x
 
 git submodule init
 git submodule sync
@@ -14,6 +14,6 @@ MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=128m -XX:NewSize=64m -Dmaven.test.ski
 export MAVEN_OPTS
 
 rm -rf build
-(cd kernel; mvn clean install -Dmaven.test.skip=true)
+(cd indie/kernel; mvn clean install -Dmaven.test.skip=true)
 mvn clean install sakai:deploy -Pfull,oxford -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai -Dmaven.tomcat.home=$(pwd)/build/ || exit 1
 (cd build && tar zcf ../sakai-${local_version}.tgz .)
