@@ -44,6 +44,13 @@
           <type>zip</type>
         </dependency>
         <dependency>
+          <groupId>uk.ac.ox.oucs.termdates</groupId>
+          <artifactId>termdates-assembly</artifactId>
+          <version>1.0-SNAPSHOT</version>
+          <classifier>tomcat-overlay</classifier>
+          <type>zip</type>
+        </dependency>
+        <dependency>
           <groupId>uk.ac.ox.oucs</groupId>
           <artifactId>proxy-assembly</artifactId>
           <version>1.3</version>
