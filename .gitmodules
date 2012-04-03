@@ -223,3 +223,6 @@
 [submodule "indie/member-profile-provider"]
 	path = indie/member-profile-provider
 	url = ../../../local-project/member-profile-provider
+[submodule "extras/simple-signup-entityprovider"]
+	path = extras/simple-signup-entityprovider
+	url = ../../../mirror/simple-signup-entityprovider.git
