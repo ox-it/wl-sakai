@@ -28,9 +28,9 @@
       <type>pom</type>
     </dependency>
     <dependency>
-      <groupId>uk.ac.ox.oucs</groupId>
-      <artifactId>tiny_mce</artifactId>
-      <version>1.1</version>
+      <groupId>tiny_mce</groupId>
+      <artifactId>tiny_mce-war</artifactId>
+      <version>3.5b2</version>
       <type>war</type>
     </dependency>
     <dependency>
