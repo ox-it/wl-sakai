@@ -226,3 +226,6 @@
 [submodule "extras/simple-signup-entityprovider"]
 	path = extras/simple-signup-entityprovider
 	url = ../../../mirror/simple-signup-entityprovider.git
+[submodule "extras/content-sync"]
+	path = extras/content-sync
+	url = ../../../local-project/content-sync.git
