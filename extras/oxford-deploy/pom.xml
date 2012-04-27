@@ -74,7 +74,7 @@
         <dependency>
           <groupId>org.sakaiproject.signup</groupId>
           <artifactId>signup-assembly</artifactId>
-          <version>1.0ox2</version>
+          <version>1.0ox2-SNAPSHOT</version>
           <classifier>tomcat-overlay</classifier>
           <type>zip</type>
         </dependency>
