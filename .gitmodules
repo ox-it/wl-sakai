@@ -229,3 +229,6 @@
 [submodule "extras/content-sync"]
 	path = extras/content-sync
 	url = ../../../local-project/content-sync.git
+[submodule "extras/oxam"]
+	path = extras/oxam
+	url = ../../../local-project/oxam/
