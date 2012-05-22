@@ -232,3 +232,6 @@
 [submodule "extras/oxam"]
 	path = extras/oxam
 	url = ../../../local-project/oxam/
+[submodule "indie/reset-pass"]
+	path = indie/reset-pass
+	url = ../reset-pass.git
