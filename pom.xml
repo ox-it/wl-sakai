@@ -80,6 +80,7 @@
         <module>alias</module>
         <module>announcement</module>
         <module>assignment</module>
+        <module>assignment2</module>
         <module>authz</module>
         <module>calendar</module>
         <module>chat</module>
