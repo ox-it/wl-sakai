@@ -55,8 +55,8 @@
 [submodule "metaobj"]
 	path = metaobj
 	url = ../../../mirror/sakai/metaobj.git
-[submodule "msgcntr"]
-	path = msgcntr
+[submodule "indie/msgcntr"]
+	path = indie/msgcntr
 	url = ../msgcntr.git
 [submodule "podcasts"]
 	path = podcasts
@@ -232,3 +232,6 @@
 [submodule "extras/oxam"]
 	path = extras/oxam
 	url = ../../../local-project/oxam/
+[submodule "indie/reset-pass"]
+	path = indie/reset-pass
+	url = ../reset-pass.git

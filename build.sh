@@ -2,7 +2,7 @@
 #
 # Short build script.
 
-local_version=2.8-ox1-beta9
+local_version=2.8-ox1
 local_sakai=2.8.x
 
 git submodule init
