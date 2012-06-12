@@ -235,3 +235,6 @@
 [submodule "indie/reset-pass"]
 	path = indie/reset-pass
 	url = ../reset-pass.git
+[submodule "indie/profile2"]
+	path = indie/profile2
+	url = ../profile2.git
