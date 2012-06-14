@@ -240,4 +240,4 @@
 	url = ../../profile2.git
 [submodule "assignment2"]
 	path = assignment2
-	url = ../../../mirror/assignment2.git
+	url = ../../../local-version/assignment2.git
