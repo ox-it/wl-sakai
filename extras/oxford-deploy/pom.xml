@@ -20,6 +20,7 @@
     <clean.targets>components/oauth-pack</clean.targets>
     <clean.targets>components/basiclti-pack</clean.targets>
     <clean.targets>components/signup-pack</clean.targets>
+    <clean.targets>components/external-calendaring-service-pack</clean.targets>
     <deploy.target>tomcat-overlay</deploy.target>
   </properties>
   <profiles>
@@ -78,7 +79,15 @@
           <classifier>tomcat-overlay</classifier>
           <type>zip</type>
         </dependency>
+	<!-- Needed for the signup assembly -->
         <dependency>
+          <groupId>org.sakaiproject.calendaring</groupId>
+          <artifactId>external-calendaring-service-assembly</artifactId>
+          <version>1.0.3</version>
+          <classifier>tomcat-overlay</classifier>
+          <type>zip</type>
+	</dependency>
+	<dependency>
           <groupId>org.sakaiproject</groupId>
           <artifactId>sakai-feeds-assembly</artifactId>
           <version>1.16ox1</version>
