@@ -238,3 +238,6 @@
 [submodule "indie/assignment2"]
 	path = indie/assignment2
 	url = ../../assignment2.git
+[submodule "indie/shortenedurl"]
+	path = indie/shortenedurl
+	url = ../../shortenedurl.git
