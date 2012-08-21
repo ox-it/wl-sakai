@@ -215,13 +215,13 @@
                     <classifier>tomcat-overlay</classifier>
                     <type>zip</type>
                 </dependency>
-		<dependency>
-		  <groupId>org.sakaiproject.contentreview</groupId>
-		  <artifactId>sakai-contentreview-assembly</artifactId>
-		  <version>${sakai.contentreview.version}</version>
-		  <classifier>tomcat-overlay</classifier>
-                  <type>zip</type>
-		</dependency>
+                <dependency>
+                    <groupId>org.sakaiproject.contentreview</groupId>
+                    <artifactId>sakai-contentreview-assembly</artifactId>
+                    <version>${sakai.contentreview.version}</version>
+                    <classifier>tomcat-overlay</classifier>
+                    <type>zip</type>
+                </dependency>
             </dependencies>
         </profile>
         <profile>
