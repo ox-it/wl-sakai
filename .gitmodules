@@ -180,7 +180,7 @@
 	url = ../../etudes/etudes-util.git
 [submodule "extra/turnitin"]
 	path = extras/turnitin
-	url = ../../../mirror/turnitin.git
+	url = ../../turnitin.git
 [submodule "extra/external-groups"]
 	path = extras/external-groups
 	url = ../../../local-project/external-groups
