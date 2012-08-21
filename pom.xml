@@ -254,7 +254,7 @@
         <module>extras/oxam</module>
         <module>extras/oxford</module>
         <module>extras/oxford-deploy</module>
-        <module>extras/turnitin/contentreview-impl</module>
+        <module>extras/turnitin</module>
         <module>extras/oxford-url-shortener</module>
         <module>extras/sirlouie</module>
         <module>extras/simple-signup-entityprovider</module>
