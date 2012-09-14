@@ -241,3 +241,6 @@
 [submodule "indie/shortenedurl"]
 	path = indie/shortenedurl
 	url = ../../shortenedurl.git
+[submodule "indie/mailsender"]
+	path = indie/mailsender
+	url = ../mailsender.git
