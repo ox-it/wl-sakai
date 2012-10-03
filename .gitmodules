@@ -162,7 +162,7 @@
 	url = ../wl-signup.git
 [submodule "extra/melete"]
 	path = extras/melete
-	url = ../../sakai-mirror/etudes/melete.git
+	url = ../../sakai-mirror/melete.git
 [submodule "extra/evaluation"]
 	path = extras/evaluation
 	url = ../wl-evaluation.git
@@ -171,13 +171,13 @@
 	url = ../wl-tetraelf-hierarchy
 [submodule "extra/ambrosia"]
 	path = extras/ambrosia
-	url = ../wl-etudes/ambrosia.git
+	url = ../wl-ambrosia.git
 [submodule "extra/mneme"]
 	path = extras/mneme
-	url = ../wl-etudes/mneme.git
+	url = ../wl-mneme.git
 [submodule "extra/etudes-util"]
 	path = extras/etudes-util
-	url = ../wl-etudes/etudes-util.git
+	url = ../wl-etudes-util.git
 [submodule "extra/turnitin"]
 	path = extras/turnitin
 	url = ../wl-turnitin.git
