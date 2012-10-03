@@ -18,7 +18,6 @@
   <properties>
     <clean.targets>components/content-cleanup</clean.targets>
     <clean.targets>components/oauth-pack</clean.targets>
-    <clean.targets>components/basiclti-pack</clean.targets>
     <clean.targets>components/signup-pack</clean.targets>
     <clean.targets>components/external-calendaring-service-pack</clean.targets>
     <clean.targets>components/mailsender-pack</clean.targets>
@@ -56,13 +55,6 @@
           <groupId>uk.ac.ox.oucs</groupId>
           <artifactId>proxy-assembly</artifactId>
           <version>1.3</version>
-          <classifier>tomcat-overlay</classifier>
-          <type>zip</type>
-        </dependency>
-        <dependency>
-          <groupId>org.sakaiproject.basiclti</groupId>
-          <artifactId>basiclti-assembly</artifactId>
-          <version>1.3.1</version>
           <classifier>tomcat-overlay</classifier>
           <type>zip</type>
         </dependency>
