@@ -1,246 +1,246 @@
 [submodule "alias"]
 	path = alias
-	url = ../../../mirror/sakai/alias.git
+	url = ../../sakai-mirror/alias.git
 [submodule "announcement"]
 	path = announcement
-	url = ../announcement.git
+	url = ../wl-announcement.git
 [submodule "assignment"]
 	path = assignment
-	url = ../assignment.git
+	url = ../wl-assignment.git
 [submodule "authz"]
 	path = authz
-	url = ../authz.git
+	url = ../wl-authz.git
 [submodule "blog"]
 	path = blog
-	url = ../blog.git
+	url = ../wl-blog.git
 [submodule "calendar"]
 	path = calendar
-	url = ../calendar.git
+	url = ../wl-calendar.git
 [submodule "chat"]
 	path = chat
-	url = ../../../mirror/sakai/chat.git
+	url = ../../sakai-mirror/chat.git
 [submodule "citations"]
 	path = citations
-	url = ../citations.git
+	url = ../wl-citations.git
 [submodule "content"]
 	path = content
-	url = ../content.git
+	url = ../wl-content.git
 [submodule "courier"]
 	path = courier
-	url = ../../../mirror/sakai/courier.git
+	url = ../../sakai-mirror/courier.git
 [submodule "dav"]
 	path = dav
-	url = ../dav.git
+	url = ../wl-dav.git
 [submodule "gradebook"]
 	path = gradebook
-	url = ../gradebook.git
+	url = ../wl-gradebook.git
 [submodule "help"]
 	path = help
-	url = ../help.git
+	url = ../wl-help.git
 [submodule "jobscheduler"]
 	path = jobscheduler
-	url = ../jobscheduler.git
+	url = ../wl-jobscheduler.git
 [submodule "login"]
 	path = login
-	url = ../login.git
+	url = ../wl-login.git
 [submodule "mailarchive"]
 	path = mailarchive
-	url = ../mailarchive.git
+	url = ../wl-mailarchive.git
 [submodule "master"]
 	path = master
-	url = ../master.git
+	url = ../wl-master.git
 [submodule "message"]
 	path = message
-	url = ../../../mirror/sakai/message.git
+	url = ../../sakai-mirror/message.git
 [submodule "metaobj"]
 	path = metaobj
-	url = ../../../mirror/sakai/metaobj.git
+	url = ../../sakai-mirror/metaobj.git
 [submodule "indie/msgcntr"]
 	path = indie/msgcntr
-	url = ../msgcntr.git
+	url = ../wl-msgcntr.git
 [submodule "podcasts"]
 	path = podcasts
-	url = ../podcasts.git
+	url = ../wl-podcasts.git
 [submodule "portal"]
 	path = portal
-	url = ../portal.git
+	url = ../wl-portal.git
 [submodule "postem"]
 	path = postem
-	url = ../../../mirror/sakai/postem.git
+	url = ../../sakai-mirror/postem.git
 [submodule "presence"]
 	path = presence
-	url = ../../../mirror/sakai/presence.git
+	url = ../../sakai-mirror/presence.git
 [submodule "presentation"]
 	path = presentation
-	url = ../../../mirror/sakai/presentation.git
+	url = ../../sakai-mirror/presentation.git
 [submodule "privacy"]
 	path = privacy
-	url = ../../../mirror/sakai/privacy.git
+	url = ../../sakai-mirror/privacy.git
 [submodule "providers"]
 	path = providers
-	url = ../providers.git
+	url = ../wl-providers.git
 [submodule "reference"]
 	path = reference
-	url = ../reference.git
+	url = ../wl-reference.git
 [submodule "reports"]
 	path = reports
-	url = ../../../mirror/sakai/reports.git
+	url = ../../sakai-mirror/reports.git
 [submodule "rights"]
 	path = rights
-	url = ../../../mirror/sakai/rights.git
+	url = ../../sakai-mirror/rights.git
 [submodule "roster"]
 	path = roster
-	url = ../roster.git
+	url = ../wl-roster.git
 [submodule "rwiki"]
 	path = rwiki
-	url = ../rwiki.git
+	url = ../wl-rwiki.git
 [submodule "sakai-mock"]
 	path = sakai-mock
-	url = ../sakai-mock.git
+	url = ../wl-sakai-mock.git
 [submodule "sam"]
 	path = sam
-	url = ../sam.git
+	url = ../wl-sam.git
 [submodule "samples"]
 	path = samples
-	url = ../../../mirror/sakai/samples.git
+	url = ../../sakai-mirror/samples.git
 [submodule "search"]
 	path = search
-	url = ../search.git
+	url = ../wl-search.git
 [submodule "sections"]
 	path = sections
-	url = ../../../mirror/sakai/sections.git
+	url = ../../sakai-mirror/sections.git
 [submodule "site"]
 	path = site
-	url = ../site.git
+	url = ../wl-site.git
 [submodule "site-manage"]
 	path = site-manage
-	url = ../site-manage.git
+	url = ../wl-site-manage.git
 [submodule "syllabus"]
 	path = syllabus
-	url = ../syllabus.git
+	url = ../wl-syllabus.git
 [submodule "test-harness"]
 	path = test-harness
-	url = ../../../mirror/sakai/test-harness.git
+	url = ../../sakai-mirror/test-harness.git
 [submodule "textarea"]
 	path = textarea
-	url = ../textarea.git
+	url = ../wl-textarea.git
 [submodule "tool"]
 	path = tool
-	url = ../tool.git
+	url = ../wl-tool.git
 [submodule "user"]
 	path = user
-	url = ../user.git
+	url = ../wl-user.git
 [submodule "velocity"]
 	path = velocity
-	url = ../../../mirror/sakai/velocity.git
+	url = ../../sakai-mirror/velocity.git
 [submodule "warehouse"]
 	path = warehouse
-	url = ../../../mirror/sakai/warehouse.git
+	url = ../../sakai-mirror/warehouse.git
 [submodule "web"]
 	path = web
-	url = ../web.git
+	url = ../wl-web.git
 [submodule "usermembership"]
 	path = usermembership
-	url = ../../../mirror/sakai/usermembership.git
+	url = ../../sakai-mirror/usermembership.git
 [submodule "access"]
 	path = access
-	url = ../access.git
+	url = ../wl-access.git
 [submodule "indie/entitybroker"]
 	path = indie/entitybroker
-	url = ../entitybroker.git
+	url = ../wl-entitybroker.git
 [submodule "memory"]
 	path = memory
-	url = ../../../mirror/sakai/memory.git
+	url = ../../sakai-mirror/memory.git
 [submodule "extra/hierarchy"]
 	path = extras/hierarchy
-	url = ../../hierarchy.git
+	url = ../wl-hierarchy.git
 [submodule "extra/course-signup"]
     path = extras/course-signup
-    url = ../../../local-project/course-signup
+    url = ../wl-course-signup
 [submodule "indie/signup"]
 	path = indie/signup
-	url = ../../signup.git
+	url = ../wl-signup.git
 [submodule "extra/melete"]
 	path = extras/melete
-	url = ../../../mirror/etudes/melete.git
+	url = ../../sakai-mirror/etudes/melete.git
 [submodule "extra/evaluation"]
 	path = extras/evaluation
-	url = ../../evaluation.git
+	url = ../wl-evaluation.git
 [submodule "extra/tetraelf-hierarchy"]
 	path = extras/tetraelf-hierarchy
-	url = ../../../local-project/tetraelf-hierarchy
+	url = ../wl-tetraelf-hierarchy
 [submodule "extra/ambrosia"]
 	path = extras/ambrosia
-	url = ../../etudes/ambrosia.git
+	url = ../wl-etudes/ambrosia.git
 [submodule "extra/mneme"]
 	path = extras/mneme
-	url = ../../etudes/mneme.git
+	url = ../wl-etudes/mneme.git
 [submodule "extra/etudes-util"]
 	path = extras/etudes-util
-	url = ../../etudes/etudes-util.git
+	url = ../wl-etudes/etudes-util.git
 [submodule "extra/turnitin"]
 	path = extras/turnitin
-	url = ../../../local-version/turnitin.git
+	url = ../wl-turnitin.git
 [submodule "extra/external-groups"]
 	path = extras/external-groups
-	url = ../../../local-project/external-groups
+	url = ../wl-external-groups
 [submodule "extra/sakai-feeds"]
 	path = extras/sakai-feeds
-	url = ../../sakai-feeds.git
+	url = ../wl-sakai-feeds.git
 [submodule "indie/local-skins"]
 	path = indie/local-skins
-	url = ../../../local-project/local-skins
+	url = ../wl-local-skins
 [submodule "indie/kernel"]
 	path = indie/kernel
-	url = ../kernel.git
+	url = ../wl-kernel.git
 [submodule "config"]
 	path = config
-	url = ../config.git
+	url = ../wl-config.git
 [submodule "taggable"]
 	path = taggable
-	url = ../../../mirror/sakai/taggable.git
+	url = ../../sakai-mirror/taggable.git
 [submodule "extras/oxford-url-shortener"]
 	path = extras/oxford-url-shortener
-	url = ../../../local-version/oxford-url-shortener.git
+	url = ../wl-oxford-url-shortener.git
 [submodule "extras/sirlouie"]
 	path = extras/sirlouie
-	url = ../../../local-project/sirlouie
+	url = ../wl-sirlouie
 [submodule "indie/sakai-feeds"]
 	path = indie/sakai-feeds
-	url = ../../sakai-feeds.git
+	url = ../wl-sakai-feeds.git
 [submodule "indie/polls"]
 	path = indie/polls
-	url = ../polls.git
+	url = ../wl-polls.git
 [submodule "archive"]
 	path = archive
-	url = ../../../mirror/sakai/archive.git
+	url = ../../sakai-mirror/archive.git
 [submodule "indie/common"]
 	path = indie/common
-	url = ../common.git
+	url = ../wl-common.git
 [submodule "indie/member-profile-provider"]
 	path = indie/member-profile-provider
-	url = ../../../local-project/member-profile-provider
+	url = ../wl-member-profile-provider
 [submodule "extras/simple-signup-entityprovider"]
 	path = extras/simple-signup-entityprovider
-	url = ../../../mirror/simple-signup-entityprovider.git
+	url = ../../sakai-mirror/simple-signup-entityprovider.git
 [submodule "extras/content-sync"]
 	path = extras/content-sync
-	url = ../../../local-project/content-sync.git
+	url = ../wl-content-sync.git
 [submodule "extras/oxam"]
 	path = extras/oxam
-	url = ../../../local-project/oxam/
+	url = ../wl-oxam.git
 [submodule "indie/reset-pass"]
 	path = indie/reset-pass
-	url = ../reset-pass.git
+	url = ../wl-reset-pass.git
 [submodule "indie/profile2"]
 	path = indie/profile2
-	url = ../../profile2.git
+	url = ../wl-profile2.git
 [submodule "indie/assignment2"]
 	path = indie/assignment2
-	url = ../../assignment2.git
+	url = ../wl-assignment2.git
 [submodule "indie/shortenedurl"]
 	path = indie/shortenedurl
-	url = ../../shortenedurl.git
+	url = ../wl-shortenedurl.git
 [submodule "indie/mailsender"]
 	path = indie/mailsender
-	url = ../mailsender.git
+	url = ../wl-mailsender.git
