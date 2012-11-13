@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>master</artifactId>
+        <groupId>org.sakaiproject</groupId>
+        <version>2.8-SNAPSHOT</version>
+        <relativePath>../master/pom.xml</relativePath>
+    </parent>
+    <name>raven-sentry</name>
+    <groupId>uk.ac.ox.it.sentry</groupId>
+    <artifactId>raven-sentry</artifactId>
+    <packaging>pom</packaging>
+    <description>This pom deploys the raven-sentry api jar to common/lib.</description>
+    <properties>
+        <deploy.target>common</deploy.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>net.kencochrane</groupId>
+            <artifactId>raven-java</artifactId>
+            <version>0.6-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
