@@ -28,11 +28,6 @@
             <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
-    <scm>
-        <connection>scm:git:git://git-repo.oucs.ox.ac.uk/git/repos/local-project/solr</connection>
-        <developerConnection>scm:git:ssh://git-repo.oucs.ox.ac.uk/~git/repos/local-project/solr</developerConnection>
-        <url>http://git-repo.oucs.ox.ac.uk/cgi-bin/gitweb.cgi?p=repos/local-project/solr</url>
-    </scm>
 
     <dependencies>
         <dependency>
