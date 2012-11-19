@@ -247,3 +247,6 @@
 [submodule "indie/basiclti"]
 	path = indie/basiclti
 	url = ../wl-basiclti.git
+[submodule "extras/sitestats"]
+	path = extras/sitestats
+	url = ../../sakai-mirror/sitestats.git
