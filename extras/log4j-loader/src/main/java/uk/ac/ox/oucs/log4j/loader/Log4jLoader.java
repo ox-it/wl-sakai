@@ -1,10 +1,9 @@
 package uk.ac.ox.oucs.log4j.loader;
 
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.sakaiproject.component.api.ServerConfigurationService;
 import org.sakaiproject.component.cover.ComponentManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -23,7 +22,7 @@ import java.util.Arrays;
  * @author Colin Hebert
  */
 public class Log4jLoader implements ServletContextListener {
-    private static Logger logger = LoggerFactory.getLogger(Log4jLoader.class);
+    private static Logger logger = Logger.getLogger(Log4jLoader.class);
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
