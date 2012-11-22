@@ -260,8 +260,8 @@
         <module>extras/simple-signup-entityprovider</module>
         <module>extras/content-sync</module>
         <module>extras/sitestats</module>
+        <module>extras/raven-sentry</module>
         <module>jobscheduler</module>
-        <module>raven-sentry</module>
       </modules>
     </profile>
     <profile>
