@@ -261,8 +261,8 @@
         <module>extras/content-sync</module>
         <module>extras/sitestats</module>
         <module>extras/raven-sentry</module>
+        <module>extras/log4j-loader</module>
         <module>jobscheduler</module>
-        <module>log4j-loader</module>
       </modules>
     </profile>
     <profile>
