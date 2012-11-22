@@ -262,6 +262,7 @@
         <module>extras/sitestats</module>
         <module>extras/raven-sentry</module>
         <module>jobscheduler</module>
+        <module>log4j-loader</module>
       </modules>
     </profile>
     <profile>
