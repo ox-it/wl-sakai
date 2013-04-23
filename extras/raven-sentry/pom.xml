@@ -11,12 +11,12 @@
     <name>raven-sentry</name>
     <groupId>uk.ac.ox.it.sentry</groupId>
     <artifactId>raven-sentry</artifactId>
-    <packaging>pom</packaging>
-    <description>This pom deploys the raven-sentry api jar to common/lib.</description>
+    <packaging>jar</packaging>
+    <description>This jar deploys raven-java and its dependencies to common/lib.</description>
 
     <properties>
         <deploy.target>common</deploy.target>
-        <raven.version>2.0ox-SNAPSHOT</raven.version>
+        <raven.version>3.0-SNAPSHOT</raven.version>
     </properties>
 
     <distributionManagement>
@@ -32,30 +32,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>net.kencochrane</groupId>
+            <groupId>net.kencochrane.raven</groupId>
             <artifactId>raven</artifactId>
             <version>${raven.version}</version>
         </dependency>
         <dependency>
-            <groupId>net.kencochrane</groupId>
+            <groupId>net.kencochrane.raven</groupId>
             <artifactId>raven-log4j</artifactId>
             <version>${raven.version}</version>
         </dependency>
         <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>2.5</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>1.6</version>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1</version>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.1.4</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -64,4 +53,41 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Shader plugin, used to internalise raven and its dependencies -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>1.7.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                            <keepDependenciesWithProvidedScope>true</keepDependenciesWithProvidedScope>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <artifactSet>
+                                <includes>
+                                    <include>net.kencochrane.raven:raven</include>
+                                    <include>net.kencochrane.raven:raven-log4j</include>
+                                    <include>com.fasterxml.jackson.core:jackson-core</include>
+                                </includes>
+                            </artifactSet>
+                            <relocations>
+                                <relocation>
+                                    <pattern>com.fasterxml.jackson</pattern>
+                                    <shadedPattern>uk.ac.ox.it.sentry.jackson</shadedPattern>
+                                </relocation>
+                            </relocations>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
