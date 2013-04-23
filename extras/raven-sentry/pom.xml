@@ -47,6 +47,11 @@
             <version>2.1.4</version>
         </dependency>
         <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.6</version>
+        </dependency>
+        <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.16</version>
@@ -76,6 +81,7 @@
                                     <include>net.kencochrane.raven:raven</include>
                                     <include>net.kencochrane.raven:raven-log4j</include>
                                     <include>com.fasterxml.jackson.core:jackson-core</include>
+                                    <include>commons-codec:commons-codec</include>
                                 </includes>
                             </artifactSet>
                             <relocations>
