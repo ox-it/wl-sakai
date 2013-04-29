@@ -261,7 +261,7 @@
         <module>extras/content-sync</module>
         <module>extras/sitestats</module>
         <module>extras/raven-sentry</module>
-        <module>extras/common-deploy</module>
+        <module>extras/deploy-common</module>
         <module>extras/log4j-loader</module>
         <module>jobscheduler</module>
       </modules>
