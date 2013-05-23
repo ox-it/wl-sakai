@@ -16,7 +16,7 @@
 
     <properties>
         <deploy.target>common</deploy.target>
-        <raven.version>3.0-SNAPSHOT</raven.version>
+        <raven.version>3.0</raven.version>
     </properties>
 
     <distributionManagement>
@@ -44,12 +44,22 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>2.1.4</version>
+            <version>2.2.0</version>
         </dependency>
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
-            <version>1.6</version>
+            <version>1.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.5</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -82,12 +92,18 @@
                                     <include>net.kencochrane.raven:raven-log4j</include>
                                     <include>com.fasterxml.jackson.core:jackson-core</include>
                                     <include>commons-codec:commons-codec</include>
+                                    <include>slf4j:slf4j-api</include>
+                                    <include>slf4j:slf4j-log4j12</include>
                                 </includes>
                             </artifactSet>
                             <relocations>
                                 <relocation>
                                     <pattern>com.fasterxml.jackson</pattern>
                                     <shadedPattern>uk.ac.ox.it.sentry.jackson</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>org.sfl4j</pattern>
+                                    <shadedPattern>uk.ac.ox.it.sentry.slf4j</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>
