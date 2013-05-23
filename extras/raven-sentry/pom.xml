@@ -19,17 +19,6 @@
         <raven.version>3.0</raven.version>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>maven-repo.oucs</id>
-            <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-repo.oucs</id>
-            <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>net.kencochrane.raven</groupId>
@@ -92,8 +81,8 @@
                                     <include>net.kencochrane.raven:raven-log4j</include>
                                     <include>com.fasterxml.jackson.core:jackson-core</include>
                                     <include>commons-codec:commons-codec</include>
-                                    <include>slf4j:slf4j-api</include>
-                                    <include>slf4j:slf4j-log4j12</include>
+                                    <include>org.slf4j:slf4j-api</include>
+                                    <include>org.slf4j:slf4j-log4j12</include>
                                 </includes>
                             </artifactSet>
                             <relocations>
