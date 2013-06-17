@@ -61,7 +61,7 @@
         <dependency>
           <groupId>org.sakaiproject.mailsender</groupId>
           <artifactId>mailsender-assembly</artifactId>
-          <version>1.6.5ox1-SNAPSHOT</version>
+          <version>1.8ox1-SNAPSHOT</version>
           <classifier>tomcat-overlay</classifier>
           <type>zip</type>
         </dependency>
