@@ -36,9 +36,9 @@
             <version>2.2.0</version>
         </dependency>
         <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>1.8</version>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>14.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -80,7 +80,7 @@
                                     <include>net.kencochrane.raven:raven</include>
                                     <include>net.kencochrane.raven:raven-log4j</include>
                                     <include>com.fasterxml.jackson.core:jackson-core</include>
-                                    <include>commons-codec:commons-codec</include>
+                                    <include>com.google.guava:guava</include>
                                     <include>org.slf4j:slf4j-api</include>
                                     <include>org.slf4j:slf4j-log4j12</include>
                                 </includes>
@@ -89,6 +89,10 @@
                                 <relocation>
                                     <pattern>com.fasterxml.jackson</pattern>
                                     <shadedPattern>uk.ac.ox.it.sentry.jackson</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>com.google.common</pattern>
+                                    <shadedPattern>uk.ac.ox.it.sentry.guava</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.sfl4j</pattern>
