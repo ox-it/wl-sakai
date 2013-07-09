@@ -16,7 +16,7 @@
 
     <properties>
         <deploy.target>common</deploy.target>
-        <raven.version>3.0</raven.version>
+        <raven.version>3.1-SNAPSHOT</raven.version>
     </properties>
 
     <dependencies>
@@ -101,4 +101,18 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
