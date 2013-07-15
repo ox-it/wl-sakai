@@ -45,7 +45,7 @@
     <dependency>
       <groupId>uk.ac.ox.oucs</groupId>
       <artifactId>tomcat-additions</artifactId>
-      <version>1.4</version>
+      <version>1.5</version>
       <type>pom</type>
     </dependency>
     <dependency>
