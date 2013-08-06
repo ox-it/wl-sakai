@@ -1,7 +1,9 @@
 package uk.ac.ox.oucs.log4j.loader;
 
+import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.helpers.FileWatchdog;
 import org.sakaiproject.component.api.ServerConfigurationService;
 import org.sakaiproject.component.cover.ComponentManager;
 
@@ -18,6 +20,11 @@ import java.util.Arrays;
  * in the common folder of tomcat).<br />
  * In those cases the class loader of tomcat tends to load log4j twice and isn't able to load log4j.properties correctly.<br />
  * </p>
+ * <p>
+ * This webapp can't be reloaded as there isn't any way to stop the PropertyWatchdog, because of this when a reload
+ * happens the old one is left running and then when the file changes all the classloaders are gone and it can't load
+ * the classes.
+ * </p>
  *
  * @author Colin Hebert
  */
@@ -28,7 +35,8 @@ public class Log4jLoader implements ServletContextListener {
     public void contextInitialized(ServletContextEvent sce) {
         ServerConfigurationService serverConfigurationService = (ServerConfigurationService) ComponentManager.get(ServerConfigurationService.class);
         String log4jConfigFilePath = serverConfigurationService.getSakaiHomePath() + "log4j.properties";
-        PropertyConfigurator.configureAndWatch(log4jConfigFilePath);
+        // There's no way to shut it down, so just start going.
+        new PropertyWatchdog(log4jConfigFilePath).start();
 
         /**
          * Sakai configuration shouldn't contain any log settings
@@ -41,5 +49,27 @@ public class Log4jLoader implements ServletContextListener {
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
+    }
+
+    /**
+     * This is very similar to the class in PropertyConfigurator except that it logs when reloading is happening.
+     */
+    class PropertyWatchdog extends FileWatchdog {
+
+        PropertyWatchdog(String filename) {
+            super(filename);
+            setDelay(10000);
+        }
+
+        /**
+         Call {@link PropertyConfigurator#configure(String)} with the
+         <code>filename</code> to reconfigure log4j. */
+        public
+        void doOnChange() {
+            logger.info("Started reloading log4j configuration.");
+            new PropertyConfigurator().doConfigure(filename,
+                    LogManager.getLoggerRepository());
+            logger.info("Completed reloading log4j configuration.");
+        }
     }
 }
