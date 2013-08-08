@@ -2,6 +2,9 @@
 #
 # Short build script.
 
+# If any command fails abort the build
+set -e
+
 local_version=2.8-ox7-rc1
 local_sakai=2.8.x
 
@@ -15,5 +18,5 @@ export MAVEN_OPTS
 
 rm -rf build
 (cd indie/kernel; mvn clean install -Dmaven.test.skip=true)
-mvn clean install sakai:deploy -Pfull,oxford -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai -Dmaven.tomcat.home=$(pwd)/build/ || exit 1
+mvn clean install sakai:deploy -Pfull,oxford -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai -Dmaven.tomcat.home=$(pwd)/build/
 (cd build && tar zcf ../sakai-${local_version}.tgz .)
