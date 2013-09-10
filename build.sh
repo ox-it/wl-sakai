@@ -1,12 +1,21 @@
 #!/bin/sh
 #
 # Short build script.
+local_version=2.8-ox7.1-rc1
+local_sakai=2.8.x
 
 # If any command fails abort the build
 set -e
 
-local_version=2.8-ox7.1-rc1
-local_sakai=2.8.x
+# Check we have the correct java version
+java_version=$(java -version 2>&1 | sed -n 's/^java version *"\(.*\)"/\1/p')
+if echo $java_version | grep -q "1\.6\..*" ; then
+  echo Found Sun JDK: $java_version
+else
+  echo You have to build with Sun JDK 1.6.x, we found:
+  java -version 2>&1
+  exit 1
+fi
 
 git submodule init
 git submodule sync
