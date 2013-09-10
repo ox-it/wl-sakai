@@ -5,7 +5,7 @@
 # If any command fails abort the build
 set -e
 
-local_version=2.8-ox7
+local_version=2.8-ox7.1-rc1
 local_sakai=2.8.x
 
 git submodule init
