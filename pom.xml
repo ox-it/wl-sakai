@@ -246,7 +246,6 @@
         <module>extras/evaluation</module>
         <module>extras/external-groups</module>
         <module>extras/hierarchy</module>
-        <module>extras/melete</module>
         <module>extras/etudes-util</module>
         <module>extras/mneme</module>
         <module>extras/ambrosia</module>
