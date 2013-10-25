@@ -54,7 +54,7 @@
 	url = ../../sakai-mirror/message.git
 [submodule "metaobj"]
 	path = metaobj
-	url = ../../sakai-mirror/metaobj.git
+	url = ../metaobj.git
 [submodule "indie/msgcntr"]
 	path = indie/msgcntr
 	url = ../wl-msgcntr.git
