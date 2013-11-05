@@ -54,7 +54,7 @@
         <dependency>
           <groupId>uk.ac.ox.oucs</groupId>
           <artifactId>proxy-assembly</artifactId>
-          <version>1.3</version>
+          <version>1.4</version>
           <classifier>tomcat-overlay</classifier>
           <type>zip</type>
         </dependency>
