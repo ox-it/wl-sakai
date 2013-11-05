@@ -94,9 +94,6 @@
 [submodule "sakai-mock"]
 	path = sakai-mock
 	url = ../wl-sakai-mock.git
-[submodule "sam"]
-	path = sam
-	url = ../wl-sam.git
 [submodule "samples"]
 	path = samples
 	url = ../../sakai-mirror/samples.git

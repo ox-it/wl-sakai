@@ -37,7 +37,6 @@
                     components/profile2-pack;
                     components/sakai-common-components;
                     components/sakai-privacy-pack;
-                    components/samigo-pack;
                     components/scheduler-component;
                     components/search-pack;
                     components/sections-pack;
@@ -121,13 +120,6 @@
                     <groupId>org.sakaiproject.reset-pass</groupId>
                     <artifactId>reset-pass-assembly</artifactId>
                     <version>${sakai.resetpass.version}</version>
-                    <classifier>tomcat-overlay</classifier>
-                    <type>zip</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.sakaiproject.samigo</groupId>
-                    <artifactId>samigo-assembly</artifactId>
-                    <version>${sakai.samigo.version}</version>
                     <classifier>tomcat-overlay</classifier>
                     <type>zip</type>
                 </dependency>
