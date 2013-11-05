@@ -97,7 +97,6 @@
         <module>metaobj</module>
         <module>podcasts</module>
         <module>portal</module>
-        <module>postem</module>
         <module>presence</module>
         <module>providers</module>
         <module>reference</module>
@@ -147,7 +146,6 @@
         <module>metaobj</module>
         <module>podcasts</module>
         <module>portal</module>
-        <module>postem</module>
         <module>presence</module>
         <module>providers</module>
         <module>reference</module>
@@ -210,7 +208,6 @@
         <module>metaobj/metaobj-util/tool-lib</module>
         <!-- <module>msgcntr/messageforums-app</module> -->
         <module>podcasts/podcasts-app</module>
-        <module>postem/postem-app</module>
         <module>roster/roster-app</module>
         <module>rwiki/rwiki-tool/tool</module>
         <!-- <module>sam/samigo-app</module> -->

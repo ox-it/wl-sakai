@@ -64,9 +64,6 @@
 [submodule "portal"]
 	path = portal
 	url = ../wl-portal.git
-[submodule "postem"]
-	path = postem
-	url = ../../sakai-mirror/postem.git
 [submodule "presence"]
 	path = presence
 	url = ../../sakai-mirror/presence.git
