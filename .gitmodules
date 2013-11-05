@@ -232,9 +232,6 @@
 [submodule "indie/profile2"]
 	path = indie/profile2
 	url = ../wl-profile2.git
-[submodule "indie/assignment2"]
-	path = indie/assignment2
-	url = ../wl-assignment2.git
 [submodule "indie/shortenedurl"]
 	path = indie/shortenedurl
 	url = ../wl-shortenedurl.git
