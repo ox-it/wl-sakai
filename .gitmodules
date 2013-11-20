@@ -241,3 +241,6 @@
 [submodule "extras/sitestats"]
 	path = extras/sitestats
 	url = ../../sakai-mirror/sitestats.git
+[submodule "indie/proxy"]
+	path = indie/proxy
+	url = ../wl-proxy.git
