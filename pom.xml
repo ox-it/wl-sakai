@@ -94,7 +94,6 @@
         <module>mailarchive</module>
         <module>memory</module>
         <module>message</module>
-        <module>metaobj</module>
         <module>podcasts</module>
         <module>portal</module>
         <module>presence</module>
@@ -112,7 +111,6 @@
         <module>tool</module>
         <module>user</module>
         <module>velocity</module>
-        <module>warehouse</module>
         <module>web</module>
         <module>usermembership</module>
       </modules>
@@ -143,7 +141,6 @@
         <module>mailarchive</module>
         <module>memory</module>
         <module>message</module>
-        <module>metaobj</module>
         <module>podcasts</module>
         <module>portal</module>
         <module>presence</module>
@@ -162,7 +159,6 @@
         <module>user</module>
         <module>usermembership</module>
         <module>velocity</module>
-        <module>warehouse</module>
         <module>web</module>
       </modules>
     </profile>
@@ -205,7 +201,6 @@
       <modules>
         <module>gradebook/app/ui</module>
         <module>help/help-tool</module>
-        <module>metaobj/metaobj-util/tool-lib</module>
         <!-- <module>msgcntr/messageforums-app</module> -->
         <module>podcasts/podcasts-app</module>
         <module>roster/roster-app</module>
