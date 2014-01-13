@@ -76,7 +76,7 @@
         <dependency>
           <groupId>org.sakaiproject.calendaring</groupId>
           <artifactId>external-calendaring-service-assembly</artifactId>
-          <version>1.0.6ox2</version>
+          <version>1.0.6ox4</version>
           <classifier>tomcat-overlay</classifier>
           <type>zip</type>
         </dependency>
