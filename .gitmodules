@@ -210,7 +210,7 @@
 	url = ../wl-member-profile-provider
 [submodule "extras/simple-signup-entityprovider"]
 	path = extras/simple-signup-entityprovider
-	url = ../../sakai-mirror/simple-signup-entityprovider.git
+	url = ../wl-simple-signup-entityprovider.git
 [submodule "extras/content-sync"]
 	path = extras/content-sync
 	url = ../wl-content-sync.git
