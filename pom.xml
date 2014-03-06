@@ -121,6 +121,11 @@
 
                 <!-- Oxford specific -->
                 <module>raven-sentry</module>
+
+                <!-- This has to be the last module as it doesn't explicitly
+                     depend on any of the earlier modules but needs to be
+                     built last.-->
+                <module>pack</module>
             </modules>
         </profile>
         <profile>
@@ -205,38 +210,6 @@
                 <module>web</module>
                 <module>webservices</module>
                 <module>yaft</module>
-            </modules>
-        </profile>
-        
-        <!-- pack profiles for building release artifacts -->
-        <profile>
-            <id>pack</id>
-            <modules>
-				<module>master</module>
-                <module>pack/pack-src</module>
-                <module>pack/pack-bin</module>
-                <module>pack/pack-demo</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>pack-bin</id>
-            <modules>
-				<module>master</module>
-                <module>pack/pack-bin</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>pack-demo</id>
-            <modules>
-                <module>master</module>
-                <module>pack/pack-demo</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>pack-src</id>
-            <modules>
-                <module>master</module>
-                <module>pack/pack-src</module>
             </modules>
         </profile>
         
