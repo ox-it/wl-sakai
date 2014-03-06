@@ -118,6 +118,9 @@
                 <module>warehouse</module>
                 <module>web</module>
                 <module>webservices</module>
+
+                <!-- Oxford specific -->
+                <module>raven-sentry</module>
             </modules>
         </profile>
         <profile>
