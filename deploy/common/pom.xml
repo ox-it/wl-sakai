@@ -25,5 +25,11 @@
         <deploy.target>common</deploy.target>
     </properties>
 
-    <dependencies />
+    <dependencies>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.29</version>
+      </dependency>
+    </dependencies>
 </project>
