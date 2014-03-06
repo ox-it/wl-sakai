@@ -1,0 +1,299 @@
+# Corporate POM
+[submodule "master"]
+	path = master
+	url = ../wl-master.git
+	branch = sakai-10.x
+
+# Core services
+[submodule "kernel"]
+	path = kernel
+	url = ../../sakai-mirror/kernel.git
+	branch = sakai-10.x
+[submodule "common"]
+	path = common
+	url = ../../sakai-mirror/common.git
+	branch = sakai-10.x
+[submodule "content-review"]
+	path = content-review
+	url = ../../sakai-mirror/content-review.git
+	branch = sakai-10.x
+[submodule "edu-services"]
+	path = edu-services
+	url = ../../sakai-mirror/edu-services.git
+	branch = sakai-10.x
+[submodule "emailtemplateservice"]
+	path = emailtemplateservice
+	url = ../../sakai-mirror/emailtemplateservice.git
+	branch = sakai-10.x
+[submodule "entitybroker"]
+	path = entitybroker
+	url = ../../sakai-mirror/entitybroker.git
+	branch = sakai-10.x
+[submodule "jobscheduler"]
+	path = jobscheduler
+	url = ../../sakai-mirror/jobscheduler.git
+	branch = sakai-10.x
+[submodule "jsf"]
+	path = jsf
+	url = ../../sakai-mirror/jsf.git
+	branch = sakai-10.x
+[submodule "sakai-mock"]
+	path = sakai-mock
+	url = ../../sakai-mirror/sakai-mock.git
+	branch = sakai-10.x
+[submodule "userauditservice"]
+	path = userauditservice
+	url = ../../sakai-mirror/userauditservice.git
+	branch = sakai-10.x
+[submodule "webservices"]
+	path = webservices
+	url = ../../sakai-mirror/webservices.git
+	branch = sakai-10.x
+
+# Core Sakai Tools
+[submodule "access"]
+	path = access
+	url = ../../sakai-mirror/access.git
+	branch = sakai-10.x
+[submodule "alias"]
+	path = alias
+	url = ../../sakai-mirror/alias.git
+	branch = sakai-10.x
+[submodule "announcement"]
+	path = announcement
+	url = ../../sakai-mirror/announcement.git
+	branch = sakai-10.x
+[submodule "archive"]
+	path = archive
+	url = ../../sakai-mirror/archive.git
+	branch = sakai-10.x
+[submodule "assignment"]
+	path = assignment
+	url = ../../sakai-mirror/assignment.git
+	branch = sakai-10.x
+[submodule "authz"]
+	path = authz
+	url = ../../sakai-mirror/authz.git
+	branch = sakai-10.x
+[submodule "basiclti"]
+	path = basiclti
+	url = ../../sakai-mirror/basiclti.git
+	branch = sakai-10.x
+[submodule "calendar"]
+	path = calendar
+	url = ../../sakai-mirror/calendar.git
+	branch = sakai-10.x
+[submodule "chat"]
+	path = chat
+	url = ../../sakai-mirror/chat.git
+	branch = sakai-10.x
+[submodule "citations"]
+	path = citations
+	url = ../../sakai-mirror/citations.git
+	branch = sakai-10.x
+[submodule "config"]
+	path = config
+	url = ../../sakai-mirror/config.git
+	branch = sakai-10.x
+[submodule "content"]
+	path = content
+	url = ../../sakai-mirror/content.git
+	branch = sakai-10.x
+[submodule "courier"]
+	path = courier
+	url = ../../sakai-mirror/courier.git
+	branch = sakai-10.x
+[submodule "dav"]
+	path = dav
+	url = ../../sakai-mirror/dav.git
+	branch = sakai-10.x
+[submodule "gradebook"]
+	path = gradebook
+	url = ../../sakai-mirror/gradebook.git
+	branch = sakai-10.x
+[submodule "help"]
+	path = help
+	url = ../../sakai-mirror/help.git
+	branch = sakai-10.x
+[submodule "lessonbuilder"]
+	path = lessonbuilder
+	url = ../../sakai-mirror/lessonbuilder.git
+	branch = sakai-10.x
+[submodule "login"]
+	path = login
+	url = ../../sakai-mirror/login.git
+	branch = sakai-10.x
+[submodule "mailarchive"]
+	path = mailarchive
+	url = ../../sakai-mirror/mailarchive.git
+	branch = sakai-10.x
+[submodule "mailsender"]
+	path = mailsender
+	url = ../../sakai-mirror/mailsender.git
+	branch = sakai-10.x
+[submodule "memory"]
+	path = memory
+	url = ../../sakai-mirror/memory.git
+	branch = sakai-10.x
+[submodule "message"]
+	path = message
+	url = ../../sakai-mirror/message.git
+	branch = sakai-10.x
+[submodule "metaobj"]
+	path = metaobj
+	url = ../../sakai-mirror/metaobj.git
+	branch = sakai-10.x
+[submodule "msgcntr"]
+	path = msgcntr
+	url = ../../sakai-mirror/msgcntr.git
+	branch = sakai-10.x
+[submodule "osp"]
+	path = osp
+	url = ../../sakai-mirror/osp.git
+	branch = sakai-10.x
+[submodule "pack"]
+	path = pack
+	url = ../wl-pack.git
+	branch = 10.0
+[submodule "podcasts"]
+	path = podcasts
+	url = ../../sakai-mirror/podcasts.git
+	branch = sakai-10.x
+[submodule "polls"]
+	path = polls
+	url = ../../sakai-mirror/polls.git
+	branch = sakai-10.x
+[submodule "portal"]
+	path = portal
+	url = ../../sakai-mirror/portal.git
+	branch = sakai-10.x
+[submodule "postem"]
+	path = postem
+	url = ../../sakai-mirror/postem.git
+	branch = sakai-10.x
+[submodule "presence"]
+	path = presence
+	url = ../../sakai-mirror/presence.git
+	branch = sakai-10.x
+[submodule "profile2"]
+	path = profile2
+	url = ../../sakai-mirror/profile2.git
+	branch = sakai-10.x
+[submodule "providers"]
+	path = providers
+	url = ../../sakai-mirror/providers.git
+	branch = sakai-10.x
+[submodule "reference"]
+	path = reference
+	url = ../../sakai-mirror/reference.git
+	branch = sakai-10.x
+[submodule "reset-pass"]
+	path = reset-pass
+	url = ../../sakai-mirror/reset-pass.git
+	branch = sakai-10.x
+[submodule "rights"]
+	path = rights
+	url = ../../sakai-mirror/rights.git
+	branch = sakai-10.x
+[submodule "rwiki"]
+	path = rwiki
+	url = ../../sakai-mirror/rwiki.git
+	branch = sakai-10.x
+[submodule "samigo"]
+	path = samigo
+	url = ../../sakai-mirror/sam.git
+	branch = sakai-10.x
+[submodule "search"]
+	path = search
+	url = ../../sakai-mirror/search.git
+	branch = sakai-10.x
+[submodule "sections"]
+	path = sections
+	url = ../../sakai-mirror/sections.git
+	branch = sakai-10.x
+[submodule "shortenedurl"]
+	path = shortenedurl
+	url = ../../sakai-mirror/shortenedurl.git
+	branch = sakai-10.x
+[submodule "site"]
+	path = site
+	url = ../../sakai-mirror/site.git
+	branch = sakai-10.x
+[submodule "site-manage"]
+	path = site-manage
+	url = ../../sakai-mirror/site-manage.git
+	branch = sakai-10.x
+[submodule "sitestats"]
+	path = sitestats
+	url = ../../sakai-mirror/sitestats.git
+	branch = sakai-10.x
+[submodule "syllabus"]
+	path = syllabus
+	url = ../../sakai-mirror/syllabus.git
+	branch = sakai-10.x
+[submodule "taggable"]
+	path = taggable
+	url = ../../sakai-mirror/taggable.git
+	branch = sakai-10.x
+[submodule "textarea"]
+	path = textarea
+	url = ../../sakai-mirror/textarea.git
+	branch = sakai-10.x
+[submodule "tool"]
+	path = tool
+	url = ../../sakai-mirror/tool.git
+	branch = sakai-10.x
+[submodule "user"]
+	path = user
+	url = ../../sakai-mirror/user.git
+	branch = sakai-10.x
+[submodule "usermembership"]
+	path = usermembership
+	url = ../../sakai-mirror/usermembership.git
+	branch = sakai-10.x
+[submodule "velocity"]
+	path = velocity
+	url = ../../sakai-mirror/velocity.git
+	branch = sakai-10.x
+[submodule "warehouse"]
+	path = warehouse
+	url = ../../sakai-mirror/warehouse.git
+	branch = sakai-10.x
+[submodule "web"]
+	path = web
+	url = ../../sakai-mirror/web.git
+	branch = sakai-10.x
+
+# Sakai 10 additions
+[submodule "roster2"]
+	path = roster2
+	url = ../../sakai-mirror/roster2.git
+	branch = sakai-10.x
+[submodule "hierarchy"]
+	path = hierarchy
+	url = ../../sakai-mirror/hierarchy.git
+	branch = sakai-10.x
+[submodule "delegatedaccess"]
+	path = delegatedaccess
+	url = ../wl-delegatedaccess.git
+	branch = 10.0
+
+# Etudes projects
+[submodule "mneme"]
+	path = mneme
+	url = ../wl-mneme.git
+	branch = 10.0
+[submodule "ambrosia"]
+	path = ambrosia
+	url = ../wl-ambrosia.git
+	branch = 10.0
+[submodule "etudes-util"]
+	path = etudes-util
+	url = ../wl-etudes-util.git
+	branch = 10.0
+
+# Contrib
+[submodule "evaluation"]
+	path = evaluation
+	url = ../wl-evaluation.git
+	branch = 10.0
