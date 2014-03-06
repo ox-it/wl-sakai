@@ -29,6 +29,10 @@
 	path = entitybroker
 	url = ../../sakai-mirror/entitybroker.git
 	branch = sakai-10.x
+[submodule "external-calendaring-service"]
+	path = external-calendaring-service
+	url = ../../sakai-mirror/external-calendaring-service.git
+	branch = sakai-10.x
 [submodule "jobscheduler"]
 	path = jobscheduler
 	url = ../../sakai-mirror/jobscheduler.git
@@ -215,6 +219,10 @@
 	path = shortenedurl
 	url = ../../sakai-mirror/shortenedurl.git
 	branch = sakai-10.x
+[submodule "signup"]
+	path = signup
+	url = ../../sakai-mirror/signup.git
+	branch = sakai-10.x
 [submodule "site"]
 	path = site
 	url = ../../sakai-mirror/site.git
@@ -275,8 +283,8 @@
 	branch = sakai-10.x
 [submodule "delegatedaccess"]
 	path = delegatedaccess
-	url = ../wl-delegatedaccess.git
-	branch = 10.0
+	url = ../../sakai-mirror/delegatedaccess.git
+	branch = sakai-10.x
 
 # Etudes projects
 [submodule "mneme"]
