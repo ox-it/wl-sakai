@@ -2,7 +2,7 @@
 [submodule "master"]
 	path = master
 	url = ../wl-master.git
-	branch = sakai-10.x
+	branch = 10.0
 
 # Core services
 [submodule "kernel"]
