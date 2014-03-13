@@ -7,7 +7,7 @@
 # Core services
 [submodule "kernel"]
 	path = kernel
-	url = ../../sakai-mirror/kernel.git
+	url = ../wl-kernel.git
 	branch = sakai-10.x
 [submodule "common"]
 	path = common
@@ -145,7 +145,7 @@
 	branch = sakai-10.x
 [submodule "metaobj"]
 	path = metaobj
-	url = ../../sakai-mirror/metaobj.git
+	url = ../wl-metaobj.git
 	branch = sakai-10.x
 [submodule "msgcntr"]
 	path = msgcntr
@@ -233,7 +233,7 @@
 	branch = sakai-10.x
 [submodule "sitestats"]
 	path = sitestats
-	url = ../../sakai-mirror/sitestats.git
+	url = ../wl-sitestats.git
 	branch = sakai-10.x
 [submodule "syllabus"]
 	path = syllabus
