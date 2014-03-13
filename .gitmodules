@@ -43,7 +43,7 @@
 	branch = sakai-10.x
 [submodule "sakai-mock"]
 	path = sakai-mock
-	url = ../../sakai-mirror/sakai-mock.git
+	url = ../sakai-mock.git
 	branch = sakai-10.x
 [submodule "userauditservice"]
 	path = userauditservice
