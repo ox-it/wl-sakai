@@ -165,7 +165,7 @@
 	branch = sakai-10.x
 [submodule "polls"]
 	path = polls
-	url = ../../sakai-mirror/polls.git
+	url = ../wl-polls.git
 	branch = sakai-10.x
 [submodule "portal"]
 	path = portal
