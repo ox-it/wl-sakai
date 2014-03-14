@@ -209,7 +209,7 @@
 	branch = sakai-10.x
 [submodule "search"]
 	path = search
-	url = ../../sakai-mirror/search.git
+	url = ../wl-search.git
 	branch = sakai-10.x
 [submodule "sections"]
 	path = sections
