@@ -2,7 +2,7 @@
 [submodule "master"]
 	path = master
 	url = ../wl-master.git
-	branch = 10.0
+	branch = sakai-10.x
 
 # Core services
 [submodule "kernel"]
@@ -158,7 +158,7 @@
 [submodule "pack"]
 	path = pack
 	url = ../wl-pack.git
-	branch = 10.0
+	branch = sakai-10.x
 [submodule "podcasts"]
 	path = podcasts
 	url = ../../sakai-mirror/podcasts.git
@@ -290,18 +290,18 @@
 [submodule "mneme"]
 	path = mneme
 	url = ../wl-mneme.git
-	branch = 10.0
+	branch = sakai-10.x
 [submodule "ambrosia"]
 	path = ambrosia
 	url = ../wl-ambrosia.git
-	branch = 10.0
+	branch = sakai-10.x
 [submodule "etudes-util"]
 	path = etudes-util
 	url = ../wl-etudes-util.git
-	branch = 10.0
+	branch = sakai-10.x
 
 # Contrib
 [submodule "evaluation"]
 	path = evaluation
 	url = ../wl-evaluation.git
-	branch = 10.0
+	branch = sakai-10.x
