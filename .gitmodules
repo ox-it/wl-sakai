@@ -151,10 +151,6 @@
 	path = msgcntr
 	url = ../../sakai-mirror/msgcntr.git
 	branch = sakai-10.x
-[submodule "osp"]
-	path = osp
-	url = ../../sakai-mirror/osp.git
-	branch = sakai-10.x
 [submodule "pack"]
 	path = pack
 	url = ../wl-pack.git
