@@ -31,7 +31,7 @@
 	branch = sakai-10.x
 [submodule "external-calendaring-service"]
 	path = external-calendaring-service
-	url = ../../sakai-mirror/external-calendaring-service.git
+	url = ../wl-external-calendaring-service.git
 	branch = sakai-10.x
 [submodule "jobscheduler"]
 	path = jobscheduler
@@ -217,7 +217,7 @@
 	branch = sakai-10.x
 [submodule "signup"]
 	path = signup
-	url = ../../sakai-mirror/signup.git
+	url = ../wl-signup.git
 	branch = sakai-10.x
 [submodule "site"]
 	path = site
