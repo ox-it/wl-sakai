@@ -234,4 +234,4 @@
 	url = ../wl-basiclti.git
 [submodule "extras/sitestats"]
 	path = extras/sitestats
-	url = ../../sakai-mirror/sitestats.git
+	url = ../wl-sitestats.git
