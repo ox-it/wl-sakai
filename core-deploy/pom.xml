@@ -145,13 +145,6 @@
                     <type>zip</type>
                 </dependency>
                 <dependency>
-                    <groupId>org.sakaiproject.sitestats</groupId>
-                    <artifactId>sitestats-assembly</artifactId>
-                    <version>${sakai.sitestats.version}</version>
-                    <classifier>tomcat-overlay</classifier>
-                    <type>zip</type>
-                </dependency>
-                <dependency>
                     <groupId>org.sakaiproject.webservices</groupId>
                     <artifactId>webservices-assembly</artifactId>
                     <version>${sakai.webservices.version}</version>
