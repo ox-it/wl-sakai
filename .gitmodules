@@ -125,7 +125,7 @@
 	branch = sakai-10.x
 [submodule "login"]
 	path = login
-	url = ../../sakai-mirror/login.git
+	url = ../wl-login.git
 	branch = sakai-10.x
 [submodule "mailarchive"]
 	path = mailarchive
