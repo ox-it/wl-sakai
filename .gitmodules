@@ -185,7 +185,7 @@
 	branch = sakai-10.x
 [submodule "reference"]
 	path = reference
-	url = ../../sakai-mirror/reference.git
+	url = ../wl-reference.git
 	branch = sakai-10.x
 [submodule "reset-pass"]
 	path = reset-pass
