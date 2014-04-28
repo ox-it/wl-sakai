@@ -65,7 +65,7 @@
 	branch = sakai-10.x
 [submodule "announcement"]
 	path = announcement
-	url = ../../sakai-mirror/announcement.git
+	url = ../wl-announcement.git
 	branch = sakai-10.x
 [submodule "archive"]
 	path = archive
