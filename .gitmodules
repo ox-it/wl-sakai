@@ -301,3 +301,6 @@
 	path = evaluation
 	url = ../wl-evaluation.git
 	branch = sakai-10.x
+[submodule "oauth"]
+	path = oauth
+	url = ../wl-oauth.git
