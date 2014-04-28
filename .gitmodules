@@ -304,3 +304,6 @@
 [submodule "oauth"]
 	path = oauth
 	url = ../wl-oauth.git
+[submodule "external-groups"]
+	path = external-groups
+	url = ../wl-external-groups.git
