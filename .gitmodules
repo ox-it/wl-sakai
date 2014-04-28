@@ -181,7 +181,7 @@
 	branch = sakai-10.x
 [submodule "providers"]
 	path = providers
-	url = ../../sakai-mirror/providers.git
+	url = ../wl-providers.git
 	branch = sakai-10.x
 [submodule "reference"]
 	path = reference
