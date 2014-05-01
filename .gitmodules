@@ -307,3 +307,6 @@
 [submodule "external-groups"]
 	path = external-groups
 	url = ../wl-external-groups.git
+[submodule "tetraelf-hierarchy"]
+	path = tetraelf-hierarchy
+	url = ../wl-tetraelf-hierarchy.git
