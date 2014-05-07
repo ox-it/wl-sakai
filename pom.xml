@@ -122,7 +122,7 @@
 
                 <!-- Oxford specific -->
                 <module>raven-sentry</module>
-                <module>tetraelf-hierarchy</module>
+                <!-- Out of build until portal is done <module>tetraelf-hierarchy</module>-->
                 <module>etudes-util</module>
                 <module>ambrosia</module>
                 <module>mneme</module>
