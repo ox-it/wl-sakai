@@ -235,3 +235,6 @@
 [submodule "extras/sitestats"]
 	path = extras/sitestats
 	url = ../wl-sitestats.git
+[submodule "extras/admin-reporting"]
+	path = extras/admin-reporting
+	url = ../wl-admin-reporting.git
