@@ -57,7 +57,7 @@
 # Core Sakai Tools
 [submodule "access"]
 	path = access
-	url = ../../sakai-mirror/access.git
+	url = ../wl-access.git
 	branch = sakai-10.x
 [submodule "alias"]
 	path = alias
