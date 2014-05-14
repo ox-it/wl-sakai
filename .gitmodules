@@ -97,7 +97,7 @@
 	branch = sakai-10.x
 [submodule "config"]
 	path = config
-	url = ../../sakai-mirror/config.git
+	url = ../wl-config.git
 	branch = sakai-10.x
 [submodule "content"]
 	path = content
