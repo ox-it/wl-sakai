@@ -225,7 +225,7 @@
 	branch = sakai-10.x
 [submodule "site-manage"]
 	path = site-manage
-	url = ../../sakai-mirror/site-manage.git
+	url = ../wl-site-manage.git
 	branch = sakai-10.x
 [submodule "sitestats"]
 	path = sitestats
