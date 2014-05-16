@@ -165,7 +165,7 @@
 	branch = sakai-10.x
 [submodule "portal"]
 	path = portal
-	url = ../../sakai-mirror/portal.git
+	url = ../wl-portal.git
 	branch = sakai-10.x
 [submodule "postem"]
 	path = postem
