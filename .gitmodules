@@ -249,7 +249,7 @@
 	branch = sakai-10.x
 [submodule "user"]
 	path = user
-	url = ../../sakai-mirror/user.git
+	url = ../wl-user.git
 	branch = sakai-10.x
 [submodule "usermembership"]
 	path = usermembership
