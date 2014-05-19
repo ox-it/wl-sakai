@@ -39,7 +39,7 @@
 	branch = sakai-10.x
 [submodule "jsf"]
 	path = jsf
-	url = ../../sakai-mirror/jsf.git
+	url = ../wl-jsf.git
 	branch = sakai-10.x
 [submodule "sakai-mock"]
 	path = sakai-mock
