@@ -197,7 +197,7 @@
 	branch = sakai-10.x
 [submodule "rwiki"]
 	path = rwiki
-	url = ../../sakai-mirror/rwiki.git
+	url = ../wl-rwiki.git
 	branch = sakai-10.x
 [submodule "samigo"]
 	path = samigo
