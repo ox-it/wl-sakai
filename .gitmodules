@@ -245,7 +245,7 @@
 	branch = sakai-10.x
 [submodule "tool"]
 	path = tool
-	url = ../../sakai-mirror/tool.git
+	url = ../wl-tool.git
 	branch = sakai-10.x
 [submodule "user"]
 	path = user
