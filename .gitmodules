@@ -129,7 +129,7 @@
 	branch = sakai-10.x
 [submodule "mailarchive"]
 	path = mailarchive
-	url = ../../sakai-mirror/mailarchive.git
+	url = ../wl-mailarchive.git
 	branch = sakai-10.x
 [submodule "mailsender"]
 	path = mailsender
