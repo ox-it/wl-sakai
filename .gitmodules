@@ -265,7 +265,7 @@
 	branch = sakai-10.x
 [submodule "web"]
 	path = web
-	url = ../../sakai-mirror/web.git
+	url = ../wl-web.git
 	branch = sakai-10.x
 
 # Sakai 10 additions
