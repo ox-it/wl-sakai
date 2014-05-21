@@ -233,7 +233,7 @@
 	branch = sakai-10.x
 [submodule "syllabus"]
 	path = syllabus
-	url = ../../sakai-mirror/syllabus.git
+	url = ../wl-syllabus.git
 	branch = sakai-10.x
 [submodule "taggable"]
 	path = taggable
