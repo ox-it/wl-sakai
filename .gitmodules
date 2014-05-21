@@ -149,7 +149,7 @@
 	branch = sakai-10.x
 [submodule "msgcntr"]
 	path = msgcntr
-	url = ../../sakai-mirror/msgcntr.git
+	url = ../wl-msgcntr.git
 	branch = sakai-10.x
 [submodule "pack"]
 	path = pack
