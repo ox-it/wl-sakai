@@ -310,3 +310,6 @@
 [submodule "tetraelf-hierarchy"]
 	path = tetraelf-hierarchy
 	url = ../wl-tetraelf-hierarchy.git
+[submodule "oxam"]
+	path = oxam
+	url = ../wl-oxam
