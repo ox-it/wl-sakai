@@ -189,7 +189,7 @@
 	branch = sakai-10.x
 [submodule "reset-pass"]
 	path = reset-pass
-	url = ../../sakai-mirror/reset-pass.git
+	url = ../wl-reset-pass.git
 	branch = sakai-10.x
 [submodule "rights"]
 	path = rights
