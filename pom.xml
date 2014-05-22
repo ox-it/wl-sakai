@@ -127,6 +127,7 @@
                 <module>ambrosia</module>
                 <module>mneme</module>
                 <module>oxford</module>
+                <module>oxam</module>
 
                 <!-- This has to be the last module as it doesn't explicitly
                      depend on any of the earlier modules but needs to be
