@@ -313,3 +313,6 @@
 [submodule "oxam"]
 	path = oxam
 	url = ../wl-oxam
+[submodule "turnitin"]
+	path = turnitin
+	url = ../wl-turnitin
