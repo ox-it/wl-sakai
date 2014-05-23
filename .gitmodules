@@ -113,7 +113,7 @@
 	branch = sakai-10.x
 [submodule "gradebook"]
 	path = gradebook
-	url = ../../sakai-mirror/gradebook.git
+	url = ../wl-gradebook.git
 	branch = sakai-10.x
 [submodule "help"]
 	path = help
