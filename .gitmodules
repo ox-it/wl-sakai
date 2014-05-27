@@ -316,3 +316,6 @@
 [submodule "turnitin"]
 	path = turnitin
 	url = ../wl-turnitin
+[submodule "termdates"]
+	path = termdates
+	url = ../wl-termdates
