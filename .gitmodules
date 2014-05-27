@@ -93,7 +93,7 @@
 	branch = sakai-10.x
 [submodule "citations"]
 	path = citations
-	url = ../../sakai-mirror/citations.git
+	url = ../wl-citations.git
 	branch = sakai-10.x
 [submodule "config"]
 	path = config
