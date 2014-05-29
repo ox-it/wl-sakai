@@ -177,7 +177,7 @@
 	branch = sakai-10.x
 [submodule "profile2"]
 	path = profile2
-	url = ../../sakai-mirror/profile2.git
+	url = ../wl-profile2.git
 	branch = sakai-10.x
 [submodule "providers"]
 	path = providers
