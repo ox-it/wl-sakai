@@ -101,7 +101,7 @@
 	branch = sakai-10.x
 [submodule "content"]
 	path = content
-	url = ../../sakai-mirror/content.git
+	url = ../wl-content.git
 	branch = sakai-10.x
 [submodule "courier"]
 	path = courier
