@@ -35,7 +35,7 @@
 	branch = sakai-10.x
 [submodule "jobscheduler"]
 	path = jobscheduler
-	url = ../../sakai-mirror/jobscheduler.git
+	url = ../wl-jobscheduler.git
 	branch = sakai-10.x
 [submodule "jsf"]
 	path = jsf
