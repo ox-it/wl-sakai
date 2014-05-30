@@ -77,7 +77,7 @@
 	branch = sakai-10.x
 [submodule "authz"]
 	path = authz
-	url = ../../sakai-mirror/authz.git
+	url = ../wl-authz.git
 	branch = sakai-10.x
 [submodule "basiclti"]
 	path = basiclti
