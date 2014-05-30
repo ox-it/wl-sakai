@@ -73,7 +73,7 @@
 	branch = sakai-10.x
 [submodule "assignment"]
 	path = assignment
-	url = ../../sakai-mirror/assignment.git
+	url = ../wl-assignment.git
 	branch = sakai-10.x
 [submodule "authz"]
 	path = authz
