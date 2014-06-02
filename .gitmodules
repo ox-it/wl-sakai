@@ -326,3 +326,6 @@
 [submodule "feedback"]
 	path = feedback
 	url = ../wl-feedback
+[submodule "admin-reporting"]
+	path = admin-reporting
+	url = ../wl-admin-reporting.git

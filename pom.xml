@@ -121,6 +121,7 @@
                 <module>webservices</module>
 
                 <!-- Oxford specific -->
+                <module>admin-reporting</module>
                 <module>raven-sentry</module>
                 <module>tetraelf-hierarchy</module>
                 <module>etudes-util</module>
