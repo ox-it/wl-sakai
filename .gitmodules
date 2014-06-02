@@ -313,6 +313,10 @@
 [submodule "oxam"]
 	path = oxam
 	url = ../wl-oxam
+[submodule "sirlouie"]
+	path = sirlouie
+	url = ../wl-sirlouie
+	branch = origin/sakai-10.x
 [submodule "turnitin"]
 	path = turnitin
 	url = ../wl-turnitin

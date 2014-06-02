@@ -128,6 +128,7 @@
                 <module>mneme</module>
                 <module>oxford</module>
                 <module>oxam</module>
+                <module>sirlouie</module>
                 <module>turnitin/contentreview-impl</module>
                 <module>termdates</module>
 
