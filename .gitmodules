@@ -323,3 +323,6 @@
 [submodule "termdates"]
 	path = termdates
 	url = ../wl-termdates
+[submodule "feedback"]
+	path = feedback
+	url = ../wl-feedback
