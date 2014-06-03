@@ -332,3 +332,6 @@
 [submodule "content-sync"]
 	path = content-sync
 	url = ../wl-content-sync.git
+[submodule "oxford-url-shortener"]
+	path = oxford-url-shortener
+	url = ../wl-oxford-url-shortener.git
