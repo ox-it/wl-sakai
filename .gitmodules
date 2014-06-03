@@ -329,3 +329,6 @@
 [submodule "admin-reporting"]
 	path = admin-reporting
 	url = ../wl-admin-reporting.git
+[submodule "content-sync"]
+	path = content-sync
+	url = ../wl-content-sync.git

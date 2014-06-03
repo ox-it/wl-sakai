@@ -125,6 +125,7 @@
                 <module>raven-sentry</module>
                 <module>tetraelf-hierarchy</module>
                 <module>etudes-util</module>
+                <module>content-sync</module>
                 <module>feedback</module>
                 <module>ambrosia</module>
                 <module>mneme</module>
