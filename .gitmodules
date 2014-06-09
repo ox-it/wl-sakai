@@ -11,7 +11,7 @@
 	branch = sakai-10.x
 [submodule "common"]
 	path = common
-	url = ../../sakai-mirror/common.git
+	url = ../wl-common.git
 	branch = sakai-10.x
 [submodule "content-review"]
 	path = content-review
