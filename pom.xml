@@ -90,7 +90,6 @@
                 <module>podcasts</module>
                 <module>polls</module>
                 <module>portal</module>
-                <module>postem</module>
                 <module>presence</module>
                 <module>profile2</module>
                 <module>providers</module>
@@ -191,7 +190,6 @@
                 <module>podcasts</module>
                 <module>polls</module>
                 <module>portal</module>
-                <module>postem</module>
                 <module>presence</module>
                 <module>profile2</module>
                 <module>providers</module>
