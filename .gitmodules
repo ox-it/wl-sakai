@@ -81,7 +81,7 @@
 	branch = sakai-10.x
 [submodule "basiclti"]
 	path = basiclti
-	url = ../../sakai-mirror/basiclti.git
+	url = ../wl-basiclti.git
 	branch = sakai-10.x
 [submodule "calendar"]
 	path = calendar
