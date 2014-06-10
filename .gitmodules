@@ -205,7 +205,7 @@
 	branch = sakai-10.x
 [submodule "shortenedurl"]
 	path = shortenedurl
-	url = ../../sakai-mirror/shortenedurl.git
+	url = ../wl-shortenedurl.git
 	branch = sakai-10.x
 [submodule "signup"]
 	path = signup
