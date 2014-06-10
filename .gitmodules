@@ -117,7 +117,7 @@
 	branch = sakai-10.x
 [submodule "help"]
 	path = help
-	url = ../../sakai-mirror/help.git
+	url = ../wl-help.git
 	branch = sakai-10.x
 [submodule "lessonbuilder"]
 	path = lessonbuilder
