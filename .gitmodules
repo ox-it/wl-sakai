@@ -51,7 +51,7 @@
 	branch = sakai-10.x
 [submodule "webservices"]
 	path = webservices
-	url = ../../sakai-mirror/webservices.git
+	url = ../wl-webservices.git
 	branch = sakai-10.x
 
 # Core Sakai Tools
