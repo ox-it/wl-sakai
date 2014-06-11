@@ -327,3 +327,6 @@
 [submodule "oxford-url-shortener"]
 	path = oxford-url-shortener
 	url = ../wl-oxford-url-shortener.git
+[submodule "course-signup"]
+	path = course-signup
+	url = ../wl-course-signup
