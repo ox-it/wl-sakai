@@ -85,7 +85,7 @@
 	branch = sakai-10.x
 [submodule "calendar"]
 	path = calendar
-	url = ../../sakai-mirror/calendar.git
+	url = ../wl-calendar.git
 	branch = sakai-10.x
 [submodule "chat"]
 	path = chat
