@@ -237,7 +237,7 @@
 	branch = sakai-10.x
 [submodule "textarea"]
 	path = textarea
-	url = ../wl-textarea.git
+	url = ../../sakai-mirror/textarea.git
 	branch = sakai-10.x
 [submodule "tool"]
 	path = tool
