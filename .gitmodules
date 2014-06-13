@@ -195,6 +195,10 @@
 	path = rwiki
 	url = ../wl-rwiki.git
 	branch = sakai-10.x
+[submodule "samigo"]
+	path = samigo
+	url = ../../sakai-mirror/sam.git
+	branch = sakai-10.x
 [submodule "search"]
 	path = search
 	url = ../wl-search.git
