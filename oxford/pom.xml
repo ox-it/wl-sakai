@@ -10,8 +10,11 @@
   <groupId>uk.ac.ox.oucs</groupId>
   <artifactId>extras</artifactId>
   <packaging>pom</packaging>
+  <description>This deploys prebuilt artifacts that are available in maven repositories to the build.
+  </description>
   <properties>
     <deploy.target>distro</deploy.target>
+    <proxy.version>1.5</proxy.version>
   </properties>
   <dependencies>
     <dependency>
@@ -29,8 +32,37 @@
     <dependency>
       <groupId>uk.ac.ox.oucs.vle</groupId>
       <artifactId>auto-import-pack</artifactId>
-      <version>1.1-SNAPSHOT</version>
+      <version>1.1</version>
       <type>sakai-component</type>
     </dependency>
+    <!-- Deploy the proxy tool -->
+    <dependency>
+      <groupId>uk.ac.ox.oucs</groupId>
+      <artifactId>proxy-api</artifactId>
+      <version>${proxy.version}</version>
+      <type>jar</type>
+    </dependency>
+    <dependency>
+      <groupId>uk.ac.ox.oucs</groupId>
+      <artifactId>proxy-pack</artifactId>
+      <version>${proxy.version}</version>
+      <type>sakai-component</type>
+    </dependency>
+    <dependency>
+      <groupId>uk.ac.ox.oucs</groupId>
+      <artifactId>proxy</artifactId>
+      <version>${proxy.version}</version>
+      <type>war</type>
+    </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <!-- We need our newer plugin to support the distro deploy -->
+        <groupId>org.sakaiproject.maven.plugins</groupId>
+        <artifactId>sakai</artifactId>
+        <version>1.6.ox2</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>
