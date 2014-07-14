@@ -71,6 +71,7 @@
                 <module>edu-services</module>
                 <module>emailtemplateservice</module>
                 <module>entitybroker</module>
+                <module>evaluation</module>
                 <module>external-calendaring-service</module>
                 <module>external-groups</module>
                 <module>gradebook</module>
