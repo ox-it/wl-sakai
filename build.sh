@@ -26,5 +26,5 @@ MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=128m -XX:NewSize=64m -Dmaven.test.ski
 export MAVEN_OPTS
 
 rm -rf build
-mvn clean install sakai:deploy -Pfull -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai -Dmaven.tomcat.home=$(pwd)/build/
+mvn clean install sakai:deploy -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai -Dmaven.tomcat.home=$(pwd)/build/
 (cd build && tar zcf ../sakai-${local_version}.tgz .)
