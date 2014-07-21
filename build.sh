@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Short build script.
-local_version=10-ox1-alpha2
+local_version=10-ox1-alpha3
 local_sakai=10.x
 
 # If any command fails abort the build
