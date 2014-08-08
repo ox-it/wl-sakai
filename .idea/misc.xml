@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$/authz/devolved-admin/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/emailtemplateservice/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/evaluation/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/evaluation/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/gradebook/app/sakai-tool/overlays" />
+    <file url="file://$PROJECT_DIR$/gradebook/app/sakai-tool/overlays" />
+    <file url="file://$PROJECT_DIR$/lessonbuilder/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/lessonbuilder/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/mailsender/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/mailsender/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/polls/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/reference/library/overlays" />
+    <file url="file://$PROJECT_DIR$/reference/library/overlays" />
+    <file url="file://$PROJECT_DIR$/reset-pass/account-validator-tool/overlays" />
+    <file url="file://$PROJECT_DIR$/reset-pass/reset-pass/overlays" />
+    <file url="file://$PROJECT_DIR$/samigo/samigo-app/overlays" />
+    <file url="file://$PROJECT_DIR$/samigo/samigo-app/overlays" />
+    <file url="file://$PROJECT_DIR$/site-manage/site-manage-group-helper/tool/overlays" />
+    <file url="file://$PROJECT_DIR$/site-manage/site-manage-group-section-role-helper/tool/overlays" />
+    <file type="web" url="file://$PROJECT_DIR$/access/access-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/access/web-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/alias/alias-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/ambrosia/ambrosia-library/lib" />
+    <file type="web" url="file://$PROJECT_DIR$/announcement/announcement-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/archive/archive-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/assignment/assignment-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/authz/authz-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/authz/devolved-admin/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/basiclti/basiclti-blis" />
+    <file type="web" url="file://$PROJECT_DIR$/basiclti/basiclti-portlet" />
+    <file type="web" url="file://$PROJECT_DIR$/basiclti/basiclti-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/basiclti/web-ifp" />
+    <file type="web" url="file://$PROJECT_DIR$/calendar/calendar-summary-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/calendar/calendar-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/chat/chat-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/citations/citations-servlet/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/citations/citations-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/content/content-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/courier/courier-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/course-signup/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/dav/dav" />
+    <file type="web" url="file://$PROJECT_DIR$/delegatedaccess/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/emailtemplateservice/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/entitybroker/core-providers" />
+    <file type="web" url="file://$PROJECT_DIR$/entitybroker/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/evaluation/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/external-groups/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/feedback" />
+    <file type="web" url="file://$PROJECT_DIR$/gradebook/app/sakai-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/gradebook/grades-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/gradebook/testservice-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/help/help-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/jobscheduler/scheduler-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/jsf/jsf-resource" />
+    <file type="web" url="file://$PROJECT_DIR$/lessonbuilder/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/login/login-authn-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/login/login-render-engine-impl/pack" />
+    <file type="web" url="file://$PROJECT_DIR$/login/login-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/mailarchive/mailarchive-james/james" />
+    <file type="web" url="file://$PROJECT_DIR$/mailarchive/mailarchive-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/mailsender/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/memory/memory-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/message/message-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/metaobj/metaobj-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/mneme/mneme-test/test-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/mneme/mneme-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/msgcntr/messageforums-app" />
+    <file type="web" url="file://$PROJECT_DIR$/oauth/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/oxam/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/podcasts/podcasts" />
+    <file type="web" url="file://$PROJECT_DIR$/podcasts/podcasts-app" />
+    <file type="web" url="file://$PROJECT_DIR$/polls/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/portal/editor-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/portal/portal-charon/charon" />
+    <file type="web" url="file://$PROJECT_DIR$/portal/portal-chat/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/portal/portal-render-engine-impl/pack" />
+    <file type="web" url="file://$PROJECT_DIR$/portal/portal-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/portal/portal-xsl/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/presence/presence-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/profile2/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/reference/library" />
+    <file type="web" url="file://$PROJECT_DIR$/reset-pass/account-validator-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/reset-pass/reset-pass" />
+    <file type="web" url="file://$PROJECT_DIR$/rights/rights-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/roster2/roster-app" />
+    <file type="web" url="file://$PROJECT_DIR$/rwiki/rwiki-access-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/rwiki/rwiki-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/samigo/samigo-app" />
+    <file type="web" url="file://$PROJECT_DIR$/search/search-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/sections/sections-app" />
+    <file type="web" url="file://$PROJECT_DIR$/shortenedurl/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/signup/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/sirlouie" />
+    <file type="web" url="file://$PROJECT_DIR$/site-manage/pageorder/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/site-manage/site-association-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/site-manage/site-manage-group-helper/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/site-manage/site-manage-group-section-role-helper/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/site-manage/site-manage-link-helper" />
+    <file type="web" url="file://$PROJECT_DIR$/site-manage/site-manage-participant-helper" />
+    <file type="web" url="file://$PROJECT_DIR$/site-manage/site-manage-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/site/admin-perms-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/site/site-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/sitestats/sitestats-tool" />
+    <file type="web" url="file://$PROJECT_DIR$/syllabus/syllabus-app" />
+    <file type="web" url="file://$PROJECT_DIR$/tetraelf-hierarchy/hierarchy-portal/handler" />
+    <file type="web" url="file://$PROJECT_DIR$/tetraelf-hierarchy/hierarchy-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/textarea/calendar" />
+    <file type="web" url="file://$PROJECT_DIR$/textarea/FCKeditor/connector" />
+    <file type="web" url="file://$PROJECT_DIR$/tool/tool-tool/su" />
+    <file type="web" url="file://$PROJECT_DIR$/turnitin/contentreview-impl/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/user/user-tool-admin-prefs/admin-prefs" />
+    <file type="web" url="file://$PROJECT_DIR$/user/user-tool-prefs/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/user/user-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/userauditservice/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/usermembership/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/web/news-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/web/web-portlet" />
+    <file type="web" url="file://$PROJECT_DIR$/web/web-tool/tool" />
+    <file type="web" url="file://$PROJECT_DIR$/webservices/axis" />
+    <file type="web" url="file://$PROJECT_DIR$/webservices/cxf" />
+  </component>
+  <component name="IdProvider" IDEtalkID="2DE421E8235C8C7FE1C40DAE0CB02437" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
