@@ -334,3 +334,7 @@
 [submodule "course-signup"]
 	path = course-signup
 	url = ../wl-course-signup
+[submodule "simple-signup"]
+	path = simple-signup
+	url = ../wl-simple-signup-entityprovider
+
