@@ -136,6 +136,7 @@
                 <module>sirlouie</module>
                 <module>turnitin/contentreview-impl</module>
                 <module>termdates</module>
+                <module>simple-signup</module>
 
                 <!-- This has to be the last module as it doesn't explicitly
                      depend on any of the earlier modules but needs to be
