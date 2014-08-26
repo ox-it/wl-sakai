@@ -141,7 +141,7 @@
 	branch = sakai-10.x
 [submodule "message"]
 	path = message
-	url = ../../sakai-mirror/message.git
+	url = ../wl-message.git
 	branch = sakai-10.x
 [submodule "metaobj"]
 	path = metaobj
