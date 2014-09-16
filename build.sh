@@ -21,6 +21,13 @@ git submodule init
 git submodule sync
 git submodule update
 
+# This checks that all the submodule are free from local changes.
+# It checks for staged changes and also for removed files.
+# The update-index is also needed to get the index back in sync with the filesystem ( git status does this behind the scenes ).
+# To get everything back in sync do:
+# git submodule update -f
+git submodule foreach 'git update-index -q --refresh ; git diff-index --cached --quiet HEAD && git diff-files --quiet'
+
 MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=128m -XX:NewSize=64m -Dmaven.test.skip=true"
 
 export MAVEN_OPTS
