@@ -267,7 +267,7 @@
 # Sakai 10 additions
 [submodule "roster2"]
 	path = roster2
-	url = ../../sakai-mirror/roster2.git
+	url = ../wl-roster2.git
 	branch = sakai-10.x
 [submodule "hierarchy"]
 	path = hierarchy
