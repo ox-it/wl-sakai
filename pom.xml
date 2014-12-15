@@ -130,6 +130,7 @@
                 <module>content-sync</module>
                 <module>feedback</module>
                 <module>ambrosia</module>
+                <module>current-load</module>
                 <module>mneme</module>
                 <module>oxford</module>
                 <module>oxam</module>

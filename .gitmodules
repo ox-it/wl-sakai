@@ -338,3 +338,6 @@
 	path = simple-signup
 	url = ../wl-simple-signup-entityprovider
 
+[submodule "current-load"]
+	path = current-load
+	url = ../wl-currentl-load
