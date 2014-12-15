@@ -340,4 +340,4 @@
 
 [submodule "current-load"]
 	path = current-load
-	url = ../wl-currentl-load
+	url = ../wl-current-load
