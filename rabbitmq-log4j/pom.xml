@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>master</artifactId>
+        <groupId>org.sakaiproject</groupId>
+        <version>10-SNAPSHOT</version>
+        <relativePath>../master/pom.xml</relativePath>
+    </parent>
+    <name>RabbitMQ Log4J</name>
+    <groupId>uk.ac.ox.it.sakai</groupId>
+    <artifactId>rabbitmq-log4j</artifactId>
+    <packaging>jar</packaging>
+    <description>This jar deploys the rabbitmq-appender and its dependencies to common/lib.</description>
+
+    <properties>
+        <deploy.target>common</deploy.target>
+        <appender.version>1.1</appender.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>uk.ac.ox.it.vle</groupId>
+            <artifactId>rabbitmq-log4j-appender</artifactId>
+            <version>${appender.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Shader plugin, used to internalise rabbitmq and its dependencies -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                            <keepDependenciesWithProvidedScope>true</keepDependenciesWithProvidedScope>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <artifactSet>
+                                <includes>
+                                    <include>uk.ac.ox.it.vle:rabbitmq-log4j-appender</include>
+                                    <include>org.json:json</include>
+                                    <include>com.rabbitmq:amqp-client</include>
+                                </includes>
+                            </artifactSet>
+                            <relocations>
+                                <relocation>
+                                    <pattern>org.json</pattern>
+                                    <shadedPattern>uk.ac.ox.it.sakai.json</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>com.rabbitmq</pattern>
+                                    <shadedPattern>uk.ac.ox.it.sakai.rabbitmq</shadedPattern>
+                                </relocation>
+                            </relocations>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+</project>
