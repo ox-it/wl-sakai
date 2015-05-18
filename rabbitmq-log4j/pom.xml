@@ -16,7 +16,7 @@
 
     <properties>
         <deploy.target>common</deploy.target>
-        <appender.version>1.1</appender.version>
+        <appender.version>1.2</appender.version>
     </properties>
 
     <dependencies>
