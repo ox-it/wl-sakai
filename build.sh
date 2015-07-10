@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Short build script.
-local_version=$(git describe)
+local_version=$(git describe --tags)
 local_sakai=10.x
 
 # If any command fails abort the build
