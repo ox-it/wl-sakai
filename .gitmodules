@@ -253,7 +253,7 @@
 	branch = sakai-10.x
 [submodule "velocity"]
 	path = velocity
-	url = ../../sakai-mirror/velocity.git
+	url = ../wl-velocity.git
 	branch = sakai-10.x
 [submodule "warehouse"]
 	path = warehouse
