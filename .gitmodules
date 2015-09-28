@@ -47,7 +47,7 @@
 	branch = sakai-10.x
 [submodule "userauditservice"]
 	path = userauditservice
-	url = ../../sakai-mirror/userauditservice.git
+	url = ../wl-userauditservice.git
 	branch = sakai-10.x
 [submodule "webservices"]
 	path = webservices
