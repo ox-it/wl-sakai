@@ -143,7 +143,7 @@
                 <!-- This has to be the last module as it doesn't explicitly
                      depend on any of the earlier modules but needs to be
                      built last.-->
-                <module>pack</module>
+                <!--<module>pack</module>-->
             </modules>
         </profile>
         <profile>
