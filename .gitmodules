@@ -343,4 +343,4 @@
 	url = ../wl-current-load
 [submodule "docker"]
 	path = docker
-	url = ../wl-docker
+	url = ../wl-docker.git
