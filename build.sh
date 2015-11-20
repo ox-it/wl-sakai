@@ -32,6 +32,8 @@ MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=128m -XX:NewSize=64m -Dmaven.test.ski
 
 export MAVEN_OPTS
 
-rm -rf build
-mvn clean install sakai:deploy -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai -Dmaven.tomcat.home=$(pwd)/build/
-(cd build && tar zcf ../sakai-${local_version}.tgz .)
+rm -rf $(pwd)/docker/sakai-prod/tomcat
+mvn clean install sakai:deploy -Dlocal.service=$local_version -Dlocal.sakai=$local_sakai -Dmaven.tomcat.home=$(pwd)/docker/sakai-prod/tomcat
+docker build -t oxit/weblearn:${local_version} docker/sakai-prod
+docker push oxit/weblearn:${local_version}
+docker save  oxit/weblearn:${local_version}  | ssh linux.ox.ac.uk "cat > /afs/ox.ac.uk/vhost/weblearn.ox.ac.uk/werp/docker_images/sakai-${local_version}.tar"
