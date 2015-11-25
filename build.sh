@@ -28,7 +28,7 @@ git submodule update
 # git submodule update -f
 git submodule foreach 'git update-index -q --refresh ; git diff-index --cached --quiet HEAD && git diff-files --quiet'
 
-MAVEN_OPTS="-Xms168m -Xmx512m -XX:PermSize=128m -XX:NewSize=64m -Dmaven.test.skip=true"
+MAVEN_OPTS="-Xms168m -Xmx768m -XX:PermSize=128m -XX:NewSize=64m -Dmaven.test.skip=true"
 
 export MAVEN_OPTS
 
