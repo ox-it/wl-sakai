@@ -23,7 +23,7 @@
 	branch = sakai-10.x
 [submodule "emailtemplateservice"]
 	path = emailtemplateservice
-	url = ../../sakai-mirror/emailtemplateservice.git
+	url = ../wl-emailtemplateservice.git
 	branch = sakai-10.x
 [submodule "entitybroker"]
 	path = entitybroker
