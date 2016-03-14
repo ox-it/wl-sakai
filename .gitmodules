@@ -15,7 +15,7 @@
 	branch = sakai-10.x
 [submodule "content-review"]
 	path = content-review
-	url = ../../sakai-mirror/content-review.git
+	url = ../wl-content-review.git
 	branch = sakai-10.x
 [submodule "edu-services"]
 	path = edu-services
